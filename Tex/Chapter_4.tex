@@ -2,6 +2,9 @@
 \phantomsection
 
 \subsection{Project description}
+
+
+Kyno project is an application
 %Refactor
 For the last decades the amount of generated data is raising exponentially. This phenomena is caused by the increased number of data sources provided by devices, sensors, log files etc. As a result there are tremendous amounts of data which can be explored and used for deducting useful information. There are various fields which profit from Big Data analysis, such as marketing, business, pharmaceutical, social science, fraud detection. Another interesting application of Data Mining is journalism. The combination of theses two caused the emergence of Data Journalism concept.
 
@@ -9,10 +12,72 @@ OpenMedia project is a platform for data journalism which is based on a wide ran
 
 Being a web application it will offer the flexibility of cross-platform advantages. Users from different fields would be able to construct their own statistical results for helping doing their job.
 
-%done
+\subsection{SWOT analysis}
+It is necessary to make an analysis of strong and weak points for the given application, in order to have a
+brief overview about expectations or about possible problems that can appear. In \ref{table:swot} it is represented
+the strategic planning method, called SWOT, used to evaluate Strength, Weaknesses, Opportunities and
+Threads involved in the project.
+
+
+\begin{table}[!ht]
+\begin{center}
+\caption{SWOT analysis}
+\renewcommand{\arraystretch}{2}
+
+
+\begin{tabular}{|>{\centering\arraybackslash}p{8cm}|>{\centering\arraybackslash}p{8cm}|}
+\hline
+\textbf{Strengths} & \textbf{Weaknesses}\\
+\hline
+\parbox{7.9cm}{\begin{itemize}
+                     \item it is a new product on the market
+                     \item easy to use
+                     \item price, value, quality
+                     
+                  \end{itemize} }&
+\parbox{7.9cm}{\begin{itemize}
+                     \item You need LeapMotion devise in order to use it
+                     \item client application available only on Windows platform
+                     \item lack of funding
+                     \item location and geography
+
+                  \end{itemize} }\\
+\hline
+\textbf{Opportunities} & \textbf{Threads}\\
+\hline
+\parbox{7.9cm}{\begin{itemize}
+                     \item it save time and money to the client
+                     \item extendable to more regions
+                     \item outsourced labor for development
+                     \item not yet mature
+                     \item time to market
+
+                  \end{itemize} }&
+\parbox{7.9cm}{\begin{itemize}
+                     \item won't be bought by hospitals
+                     \item similar application can be develloped, so the popularity of this system may decrease
+                     \item integration with existing systems
+                     \item technical challenges
+                  \end{itemize} }\\
+\hline
+\end{tabular} 
+
+\label{table:swot}
+\vspace{-2.5em}
+\end{center}
+\end{table}
+\newpage
+After elaboration of SWOT Analysis, it was taken in consideration the objective of the business
+venture of project and there were identified the internal and external factors that are favorable and
+unfavorable to achieve the goal. There will always be concurrency, this factor having an important role in
+market development and increase of systems’ quality.
+
+
+
 \subsection{Project time schedule}
 For the accomplishment of a project it is necessary to establish a schedule. For the development of the Kyno application, agile project management is applied to offer flexible and iterative method of designing the application. It goes in 5 stages: planning, research, development, testing and deployment. The process flows in repetitive and incremental way.
-%done
+
+
 \subsubsection{Objective determination}
 The main objective of the following project is to provide a complete and functioning application for it's users. Otherwise without a finished product there is no profit. More to that, it is important to market the application and get exposed to a large audience in need. This can be done by targeting first private hospitals. Another way is to market oneself on platform-specific stores. Since it is not a common piece of software, it creates a very specific audience of users.
 
@@ -26,7 +91,7 @@ As it was said above the project will iterate over 5 steps: planning, research, 
 \end{equation}
 
 \noindent
-where $D_T$ is the duration, $D_F$ -- the finish date, $D_S$ -- the start date and $T_R$ -- reserve time. In table \ref{table:schedule} is presented the first iteration of the project schedule. It uses the following notations: PM -- project manager, SA -- system architect, SM -- sales manager, D -- developer.
+where $D_T$ is the duration, $D_F$ -- the finish date, $D_S$ -- the start date and $T_R$ -- reserve time. In table \ref{table:schedule} is presented the first iteration of the project schedule. It uses the following notations: PM -- project manager, SM -- sales manager, D -- developer/designer, T -- Tester.
 
 \begin{table}[!ht]
 \begin{center}
@@ -34,44 +99,50 @@ where $D_T$ is the duration, $D_F$ -- the finish date, $D_S$ -- the start date a
 \renewcommand{\arraystretch}{2}
 \begin{tabular}{| c | >{\centering\arraybackslash}p{5cm} | >{\centering\arraybackslash}p{2cm} | c | >{\centering\arraybackslash}p{5cm} |}
 \hline
-\textbf{Nr} & \textbf{Activity Name} & \textbf{Duration (days)} & \textbf{People involved} & \textbf{Comments} \\
+\textbf{Nr} & \textbf{Activity Name} & \textbf{Duration (days)} & \textbf{People involved} & \textbf{Notes} \\
 \hline
-1 & Define the project concept and objectives & 5 & PM, SA, SM, D & It is a common task \\
+1 & Define the project concept and objectives & 10 & PM, SM, D &  \\
 \hline
-2 & Perform market analysis & 10 & PM, SA & Will results into a document describing market analysis \\
+2 & Perform market analysis & 10 & PM, SM & Market analasys document \\
 \hline
-3 & Analysis of the domain & 15 & SA, D & Research of the recognition algorithms \\
+3 & Analysis of the domain & 10 & D & Research of algorithms and technologies \\
 \hline
-4 & Write down requirements and specifications & 5 & PM, SA, D & \\
+4 & Requirements and specifications & 5 & PM, D & Write them down \\
 \hline
-5 & System design (UML) & 10 & PM, SA, D & \\
+5 & System design & 10 & PM, D & UML  \\
 \hline
-6 & Database design & 5 & PM, SA, D & Development database and end-user database schemes\\
+6 & Preprocessing and learning part of the implementation & 25 & PM, D & \\
 \hline
-7 & Preprocessing and learning part of the implementation & 30 & PM, SA, D & \\
+7 & End-user application development & 30 & PM, T, D, SM & This includes UX and UI design \\
 \hline
-8 & End-user application development & 20 & PM, SA, D, SM & \\
+8 & Validation of results & 5 & PM, T, D, SM & \\
 \hline
-9 & Validation of results & 10 & PM, SA, D, SM & \\
+9 & Documentation & 5 & D & \\
 \hline
-10 & Documentation & 5 & D & \\
+10 & Building and testing the entire project & 15 & PM, T, D & Real users for testing\\
 \hline
-11 & Deployment and testing & 10 & PM, SA, D & \\
+11 & Active marketing & 15 & SM & OM on SM and private hospitals\\ 
 \hline
-12 & Active marketing & 10 & SM & \\
-\hline
-13 & Total time to finish the system & 135 & & \\
+12 & Total time & 140 & & \\
 \hline
 \end{tabular}
 \label{table:schedule}
 \vspace{-2.5em}
 \end{center}
 \end{table}
-
-Table \ref{table:schedule} describes the activities that will occur during project development, who is involved into each process and how much time does it take to accomplish a task. Total amount of time spent on the following project is 135 days.
+\newpage
+Table \ref{table:schedule} shows the activities that will occur during project development, who is involved into each process and how much time does it take to accomplish a task. Total amount of time spent on this project is 140 days or 20 weeks, which means almost 5 months for a strong beta version.
+For each individual, it is indicated below the number
+of spent days:
+ \begin{itemize}
+ \item PM: 110 days;
+ \item SM: 70 days;
+ \item D: 115 days;
+ \item T: 50 days
+\end{itemize}
 
 \subsection{Economic motivation}
-The following section describes the evaluation of the project from the economic point of view. That includes the total profit, number of potential clients, salaries that have to be paid to employees, revenues that the company gets by commercializing the product. All the costs and prices are given in MDL (Moldavian lei) currency. Tangible and intangible assets, indirect expenses will also be taken into account. Wear and depression in regard to final product will also be computed. It should be mentioned that OpenMedia is an open source project posted publicly on Github. In production and development, open source as a development model promotes a universal access via a free license to a product's design or blueprint, and universal redistribution of that design or blueprint, including subsequent improvements to it by anyone. Before the phrase open source became widely adopted, developers and producers used a variety of other terms. Open source gained hold with the rise of the Internet, and the attendant need for massive retooling of the computing source code. Opening the source code enabled a self-enhancing diversity of production models, communication paths, and interactive communities. The open-source software movement arose to clarify the environment that the new copyright, licensing, domain, and consumer issues created. The entire economical part is done on the presumption that the software will have payed licenses. Either way it is a curios approach to compute all the necessary resources and indexes for developing a project. It opens managerial insights over entrepreneurial ideas.
+The following section describes the evaluation of the project from the economic point of view. That includes the total profit, number of potential clients, salaries that have to be paid to employees, revenues that the company gets by commercializing the product. All the costs and prices are given in MDL (Moldavian lei) currency. Tangible and intangible assets, indirect expenses will also be taken into account. Wear and depression in regard to final product will also be computed.The entire economical part is done on the presumption that the software will have payed licenses. Either way it is a curios approach to compute all the necessary resources and indexes for developing a project. It opens managerial insights over entrepreneurial ideas.
 
 
 \subsubsection{Tangible and intangible asset expenses}
@@ -85,11 +156,15 @@ The budget for the required tangible and intangible assets is shown in Table \re
 \hline
 \textbf{Material} & \textbf{Specification} & \textbf{Measurement unit} & \textbf{Price per unit (MDL)} & \textbf{Quantity} & \textbf{Sum (MDL)}\\
 \hline
-Mac Book pro & retina display i5 & Unit & 23000 & 1 &  \multicolumn{1}{r|}{23000}\\
+Mac Book pro & retina display i7 & Unit & 25000 & 2 &  \multicolumn{1}{r|}{50000}\\
 \hline
-Smartphone & Nexus 5 & Unit & 8000 & 1 & \multicolumn{1}{r|}{8000}\\
+Apple Display & 27 inch & Unit & 20000 & 2 &  \multicolumn{1}{r|}{20000}\\
 \hline
-\multicolumn{5}{|r|}{Total} & \multicolumn{1}{r|}{31000}\\
+Asus laptop & K55VD, i5 & Unit & 5000 & 1 & \multicolumn{1}{r|}{5000}\\
+\hline
+Leap Motion & hand controller 5 & Unit & 1600 & 2 & \multicolumn{1}{r|}{3200}\\
+\hline
+\multicolumn{5}{|r|}{Total} & \multicolumn{1}{r|}{78200}\\
 \hline
 \end{tabular}
 \label{table:tangible_assets}
@@ -97,25 +172,36 @@ Smartphone & Nexus 5 & Unit & 8000 & 1 & \multicolumn{1}{r|}{8000}\\
 \vspace{-1.3em}
 \end{table}
 
+\newpage
 \begin{table}[!hb]
 \begin{center}
 \caption{Intangible asset expenses}
 \renewcommand{\arraystretch}{2}
-\begin{tabular}{| c | >{\centering\arraybackslash}p{5cm} | >{\centering\arraybackslash}p{2.7cm} | >{\centering\arraybackslash}p{2cm} | c | >{\centering\arraybackslash}p{5em}|}
+\begin{tabular}{| c | c | >{\centering\arraybackslash}p{2.7cm} | >{\centering\arraybackslash}p{2cm} | c | >{\centering\arraybackslash}p{5em}|}
 \hline
 \textbf{Material} & \textbf{Specification} & \textbf{Measurement unit} & \textbf{Price per unit (MDL)} & \textbf{Quantity} & \textbf{Sum (MDL)} \\
 \hline
-License & Enterprise Architect Desktop Edition License & Unit & 1900 & 3 & \multicolumn{1}{r|}{5700} \\
+
+Unity Pro & Subscription &Unit & 1500 & 1 & \multicolumn{1}{r|}{1500} \\
 \hline
-License & RubyMine Commercial License & Unit & 2800 & 3 & \multicolumn{1}{r|}{8400}\\
+VS Professional 2015& License & Unit & 10000 & 1 & \multicolumn{1}{r|}{10000}\\ 
 \hline
-\multicolumn{5}{|r|}{Total} & \multicolumn{1}{r|}{14100}\\
+Enterprise Architect &Home& Unit & 1900 & 1 & \multicolumn{1}{r|}{1900}\\ 
+\hline
+Windows 10 &License& Unit & 2400 & 1 & \multicolumn{1}{r|}{2400}\\ 
+\hline
+MS Word 2016 &License& Unit &1400& 1 & \multicolumn{1}{r|}{1400}\\ 
+\hline
+Adobe Illustrator &Subscription& Unit &1000& 1 & \multicolumn{1}{r|}{1000}\\ 
+\hline
+\multicolumn{5}{|r|}{Total} & \multicolumn{1}{r|}{18200}\\
 \hline
 \end{tabular}
 \label{table:intangible_assets}
 \vspace{-1em}
 \end{center}
 \end{table}
+
 
 \begin{table}[!hb]
 \begin{center}
@@ -125,15 +211,17 @@ License & RubyMine Commercial License & Unit & 2800 & 3 & \multicolumn{1}{r|}{84
 \hline
 \textbf{Material} & \textbf{Specification} & \textbf{Measurement unit} & \textbf{Price per unit (MDL)} & \textbf{Quantity} & \multicolumn{1}{>{\centering\arraybackslash}p{5em}|}{\textbf{Sum (MDL)}}\\
 \hline
-Whiteboard & Universal Dry Erase Board & Unit & 500 & 1 & 500 \\
+Whiteboard & Universal Dry Erase Board & Unit & 400 & 1 & 400 \\
 \hline
-Paper & A4 & 500 sheets & 60 & 2 & 120 \\
+Post-it note & Stickers & Unit & 20 & 10 & 200 \\
+\hline
+Paper & A4 & 500 sheets & 60 & 1 & 60 \\
 \hline
 Marker & Whiteboard marker & Unit & 15 & 10 & 150 \\
 \hline
 Pen & Blue pen & Unit & 5 & 20 & 100 \\
 \hline
-\multicolumn{5}{|r|}{Total} & 870 \\
+\multicolumn{5}{|r|}{Total} & 910 \\
 \hline
 \end{tabular}
 \label{table:direct_expenses}
@@ -141,15 +229,15 @@ Pen & Blue pen & Unit & 5 & 20 & 100 \\
 \end{center}
 \end{table}
 
-\newpage
-So the total amount of direct expenses in MDL is
+
+The total amount of expenses in MDL is about this much.
 
 \begin{equation}
- T_{e} = 31000 + 14100 + 870 = 45970
+ T_{e} = 78200 + 18200 = 96400
 \end{equation}
 
 \subsubsection{Salary expenses}
-This section is concerned about the salaries to employees and various funds that should be paid. The distribution of salaries is the following: project manager - 400MDL, system architect - 450 MDL, sales manager - 300 MDL, developer - 380 MDL.
+This section is concerned about the salaries to employees and various funds that should be paid. The distribution of salaries per day is the following: project manager - 500MDL, tester - 350 MDL, sales manager - 400 MDL, developer - 480 MDL.
 
 \begin{table}[!ht]
 \begin{center}
@@ -159,15 +247,15 @@ This section is concerned about the salaries to employees and various funds that
 \hline
 \textbf{Employee} & \textbf{Work fund (days)} & \textbf{Salary per day (MDL)} & \multicolumn{1}{>{\centering\arraybackslash}p{5em}|}{\textbf{Salary fund (MDL)}}\\
 \hline
-Project Manager & 105 & 400 & 42000 \\
+Project Manager & 110 & 500 & 55000 \\
 \hline 
-System Architect & 110 & 450 & 49500\\
+Tester & 50 & 350 & 17500\\
 \hline
-Sales Manager & 45 & 300 & 13500\\
+Sales Manager & 70 & 400 & 28000\\
 \hline
-Developer & 115 & 380 & 43700\\
+Developer & 115 & 480 & 55200\\
 \hline
-\multicolumn{3}{|r|}{Total} & 148700\\
+\multicolumn{3}{|r|}{Total} & 155700\\
 \hline
 \end{tabular}
 \label{table:salaries}
@@ -184,8 +272,8 @@ This year the social service fund is approved to be $23\%$, therefore the salary
 \begin{equation}\label{eq:fs}
 \begin{split}
  FS &= F_{re} \cdot T_{fs} \\
-    &= 148700 \cdot 23 \% \\
-    &= 34201,
+    &= 155700 \cdot 23 \% \\
+    &= 35811
 \end{split}
 \end{equation}
 \noindent
@@ -194,21 +282,21 @@ where $FS$ is the salary expense, $F_{re}$ is the salary expense fund and $T_{fs
 \begin{equation}
 \begin{split}
  MI &= F_{re} \cdot T_{mi}\\ 
-    &= 148700 \cdot 4.5\%\\ 
-    &= 5948,
+    &= 155700 \cdot 4.5\%\\ 
+    &= 7006.5
  \end{split}
 \end{equation}
 
 \noindent
-where $T_{mi}$ is the mandatory medical insurance tax approved each year by law of medical insurance and this year it is $3.5\%$. 
+where $T_{mi}$ is the mandatory medical insurance tax approved each year by law of medical insurance and this year it is $4.5\%$. 
 
 So now having computed social service tax and medical insurance tax, it is possible to compute total work expense fund as follows
 
 \begin{equation}
 \begin{split}
  WEF &= F_{re} + FS + MI\\
-     &= 148700 + 34201 + 5948\\
-     &= 188849,
+     &= 155700 + 35811 + 7007\\
+     &= 198.518
 \end{split}
 \end{equation}
 
@@ -217,10 +305,10 @@ where $WEF$ is the work expense fund, FS is the social fund and MI is the medica
 
 
 \subsection{Individual person salary}
-Along with total work expense fund, it is necessary to compute the annual salary for the developer. Considering that the developer has a salary of 380 MDL per day and there are totally 250 working days in the year, so the gross salary that the developer get is
+Along with total work expense fund, it is necessary to compute the annual salary for the project manager. Considering that the project manager has a salary of 500 MDL per day and there are approximately 256 working days in the year, so the gross salary that the project manager get is
 
 \begin{equation}
- GS = 380 \cdot 250 = 95000,
+ GS = 400 \cdot 256 = 102400
 \end{equation}
 
 \noindent where $GS$ is the gross salary computed in MDL.
@@ -228,13 +316,13 @@ Along with total work expense fund, it is necessary to compute the annual salary
 Social fund tax this year represents $6\%$, so the amount that should be tax paid in MDL represents
 
 \begin{equation}
- SF = 95000 \cdot 6\% = 5700.
+ SF = 102400 \cdot 6\% = 6144
 \end{equation}
 
 Medical insurance tax represents $4.5\%$ and gives the following result
 
 \begin{equation}
- MIF = 95000 \cdot 4.5\% = 4725.
+ MIF = 102400 \cdot 4.5\% = 4608
 \end{equation}
 
 In order to proceed with income tax computations, it is necessary to calculate the amount of taxed salary.
@@ -242,8 +330,8 @@ In order to proceed with income tax computations, it is necessary to calculate t
 \begin{equation}
 \begin{split}
  TS &= GS - SF - MIF - PE \\
-              &= 95000 - 5700 - 4725 - 10128\\ 
-              &= 74447,
+              &= 102400 - 6144 - 4608 - 10128\\ 
+              &= 81520
 \end{split}
 \end{equation}
 
@@ -255,8 +343,8 @@ The last but not the least thing to be computed is the total income tax, which i
 \begin{equation}
 \begin{split}
  IT &= TS - ST \\
-      &= 29640 \cdot 7\% + (74447 - 29640) \cdot 18\% \\
-      & = 2074.8 + 8065.3 = 10140.1,
+      &= 29640 \cdot 7\% + 51880 \cdot 18\% \\
+      & = 2074.8 + 9338.4 = 11413.2
  \end{split}
 \end{equation}
 
@@ -266,8 +354,8 @@ where $IT$ is the income tax, $TS$ -- the taxed salary and $ST$ -- the salary ta
 \begin{equation}
 \begin{split}
  NS &= GS - IT - SF - MIF \\
-            &= 95000 - 10140.1 - 5700 - 4725 \\
-            &= 74434.9,
+            &= 102400 - 11413.2 - 6144 - 4608 \\
+            &= 80.234.8
 \end{split}
 \end{equation}
 
@@ -285,15 +373,16 @@ The indirect expenses are things like electricity, Internet traffic, water, etc.
 \hline
 \textbf{Material} & \textbf{Specification} & \textbf{Measurement unit} & \textbf{Price per unit (MDL)} & \textbf{Quantity} & \multicolumn{1}{>{\centering\arraybackslash}p{4em}|}{\textbf{Sum (MDL)}}\\
 \hline
-Internet & Moldtelecom & Pack & 200.00 & 3 & 600 \\
+Internet & Moldtelecom & Pack & 200.00 & 1 & 200 \\
 \hline
-Transport & Public bus & Trip & 3.00 & 132 & 396\\
+Transport & Public bus & Trip & 3.00 & 150 & 450\\
 \hline
-Phone & Moldtelecom & Pack & 30.00 & 3 & 90\\
+Office Leasing & Office & $m^2$ & 115 & 25 & 2875\\
 \hline
-Electricity & Union Fenosa & KWh & 1.58 & 250 & 395\\
+Electricity & Union Fenosa & KWh & 2.16 & 1160 & 2505.6\\
 \hline
-\multicolumn{5}{|r|}{Total} & 1481 \\
+
+\multicolumn{5}{|r|}{Total} & 6030.6 \\
 \hline
 \end{tabular}
 \label{table:indirect_expenses}
@@ -308,20 +397,20 @@ Straight line depreciation will be applied. Normally wear is computed regarding 
 
 \begin{equation}
  \begin{split}
-  TAV &= \sum_{} (AC - SV) \\
-        &= (23000 - 1000) + (8000 - 1000) + (5700 - 1000) + (8400 - 1000) \\
-        &= 41100,
+  TAV &= \sum_{} n(AC - SV) \\
+        &= 2*(25000 - 1000)  + 2*(20000 - 1000) + (5000 - 1000) + 2*(1600 - 1000)\\&  + (1500 - 1000)+ (10000 - 1000) + (1900 - 1000) + (2400 - 1000)\\& + (1400 - 1000) + (1000 - 1000) \\
+        &= 102400
  \end{split}
 \end{equation}
 
 \noindent
-where $TAV$ is the total assets value, $AC$ -- assets cost, $SV$ -- salvage value. In order to get the yearly wear, divide total asset value by the period of use of assets, being 3 years.
+where $TAV$ is the total assets value, $AC$ -- assets cost, $SV$ -- salvage value, $n$ -- number of items. In order to get the yearly wear, divide total asset value by the period of use of assets, being 3 years.
 
 \begin{equation} \label{eq:wear}
  \begin{split}
   W_y &= TAV / T_{use} \\
-                &= 41100/3\\
-                &= 13700,
+                &= 102400/3\\
+                &= 34133
  \end{split}
 \end{equation}
 
@@ -331,13 +420,13 @@ where $W_y$ is the wear per year, $TAV$ -- total assets value, $T_{use}$ -- peri
 \begin{equation}
  \begin{split}
   W &= W_y / D_y \cdot T_p\\
-                   &= 13700  / 365  \cdot 135 \\
-                   &= 5067,
+                   &= 34133  / 365  \cdot 140 \\
+                   &= 13092
  \end{split}
 \end{equation}
 
 \subsubsection{Product cost}
-With all the project expenses computed, it is easy to compute the product cost which includes direct and indirect expenses, salary expenses and wear expenses as shown in Table \ref{table:product_cost}.
+With all the project expenses computed, it is easy to compute the product cost which includes the cost used to create this product. \ref{table:product_cost}.
 
 \begin{table}[!ht]
 \begin{center}
@@ -347,17 +436,15 @@ With all the project expenses computed, it is easy to compute the product cost w
 \hline
 \textbf{Expense type} & \multicolumn{1}{>{\centering\arraybackslash}p{6em}|}{\textbf{Sum (MDL)}} & \multicolumn{1}{>{\centering\arraybackslash}p{6em}|}{\textbf{Percentage (\%)}}\\
 \hline
-Direct expenses & 14100 & 7 \\
+Direct expenses & 18200 & 10.12 \\
 \hline
-Indirect expenses & 870 & 0.44 \\
+Indirect expenses & 910 & 0.51 \\
 \hline
-Tangible asset expenses & 31000 & 15.52\\
+Salary expenses & 155700 & 86.55\\
 \hline
-Salary expenses & 148700 & 74.45 \\
+Asset wear expenses & 5067 & 2.82 \\
 \hline
-Asset wear expenses & 5067 & 2.53 \\
-\hline
-\textbf{Total product cost} & \textbf{199737} & \textbf{100}\\
+\textbf{Total product cost} & \textbf{179877} & \textbf{100}\\
 \hline
 \end{tabular}
 \label{table:product_cost}
@@ -367,13 +454,13 @@ Asset wear expenses & 5067 & 2.53 \\
 
 
 \subsubsection{Economic indicators and results}
-At this point it is crucial to sell the product to clients from from media or business sphere. The total product cost is very high, consequently there are 2 strategies that can be applied -- whether sell less with a high price or sell more with a lower price. It is not possible to add a percentage to the product cost that will represent the profit. It is assumed that the expected profit represents $20\%$ of the total product cost and the expected number of sold copies to be 500.
+At this point it is crucial to sell the product to clients from mediacal sphere. The total product cost is very high, consequently there are 2 strategies that can be applied -- whether sell less with a high price or sell more with a lower price. It is not possible to add a percentage to the product cost that will represent the profit. It is assumed that the expected profit represents $20\%$ of the total product cost and the expected number of sold copies to be 300.
 
 \begin{equation}
  \begin{split}
   GP &= C_{total} / N_{cs} + P_{p}\\
-              &= 199737/500 + 20\% \\
-              &= 480,
+              &= 179877/400 + 20\% \\
+              &= 540*20
  \end{split}
 \end{equation}
 
@@ -383,8 +470,8 @@ where $GP$ is the gross price, $C_{total}$ -- total product cost, $N_{cs}$ -- nu
 \begin{equation}
  \begin{split}
   P_{sale} &= GP + TX_{sales}\\
-              &= 480 + 20\% \\
-              &= 576,
+              &= 540 + 20\% \\
+              &= 648
  \end{split}
 \end{equation}
 
@@ -394,8 +481,8 @@ where $P_{sale}$ is the sale prices including VAT, $GP$ -- gross price, $TX_{sal
 \begin{equation}
  \begin{split}
   I_{net} &= GP \cdot N_{cs}\\
-              &= 480  \cdot 500 \\
-              &= 240000,
+              &= 648  \cdot 300 \\
+              &= 259200
  \end{split}
 \end{equation}
 
@@ -405,11 +492,11 @@ where $I_{net}$ is the net income, $GP$ -- gross price, $N_{cs}$ -- number of co
 \begin{equation}
  \begin{split}
   GPr &= I_{net} - C_{production}\\
-              &= 240000 - 199737\\
-              &= 40263\\
+              &= 259200 - 179877\\
+              &= 79323\\
   NPr &= GPr - 12\% \\
-             &= 40263 - 12\% \\
-             &= 35431.44,
+             &= 79323 - 12\% \\
+             &= 69804.24
  \end{split}
 \end{equation}
 
@@ -419,11 +506,11 @@ where $I_{net}$ is the net income, $C_{production}$ -- cost of production. The p
 \begin{equation}
  \begin{split}
   C_{profit} &= GPr / C_{production} \cdot 100\%\\
-              &= 40263 / 199737 \cdot 100\% \\
-              &= 20.15 \%\\
+              &= 79323 / 179877 \cdot 100\% \\
+              &= 44.09 \%\\
   S_{profit} &= GPr / I_{net} \cdot 100\% \\
-             &= 40263 / 240000 \cdot 100\% \\
-             &= 16.77 \%.
+             &= 79323 / 259200 \cdot 100\% \\
+             &= 30.60 \%
  \end{split}
 \end{equation}
 
@@ -442,7 +529,7 @@ Concept of Marketing derived from the word market. Marketing - economical activi
  \item Management marketing.
 \end{itemize}
 
-This application will be widely spread between journalists and business analysts. To make people use a new application is not so easy because it needs time and investment to make it popular and well known. First of all the application will be easy to use so that an ordinary browser user will be able to intuitively use the application.
+This application will be spread between private/public hospitals and people at home. To make people use a new application is not so easy because it needs time and investment to make it popular and well known.However the application will be easy to use so that an ordinary application user will be able to intuitively use it.
 
 Market research stages:
 \begin{itemize}
@@ -461,10 +548,10 @@ Strategy - Screaming, massive penetration The growth stage is typically characte
 
 Maturity Stage - During the maturity stage, the product is established and the aim for the manufacturer is now to maintain the market share they have built up. This is probably the most competitive time for most products and businesses need to invest wisely in any marketing they undertake. They also need to consider any product modifications or improvements to the production process which might give them a competitive advantage.
 
-Declining stage - the market for a product will start to shrink, and this is what's known as the decline stage. This shrinkage could be due to the market becoming saturated (i.e. all the customers who will buy the product have already purchased it), or because the consumers are switching to a different type of product.
+Declining stage - the market for a product will start to shrink, and this is what's known as the decline stage. This shrinkage could be due to the market becoming saturated (i.e. all the customers who will buy the product have already purchased it), or because the consumers are switching to a different type of product or even a new/better product.
 
 
 \subsection{Economic conclusions}
-OpenMedia project was analyzed from the economic point of view. It was computed the production cost, different profit and profitability indicators, various types of expenses involved, including direct, indirect, salary and taxes. The whole analysis is worth to understand if the product will be successful and if it's worth investing money in it. The biggest expense represents the intellectual equity, since it is critical to have a reliable product, which is based on extensive research and professional development techniques. The price of the application can become a blocker, therefore it's price might be dropped. In such scenario other means of profit can exist.
+Kyno project was analyzed from the economic point of view. It was computed the production cost, different profit and profitability indicators, various types of expenses involved, including direct, indirect, salary and taxes. The whole analysis is worth to understand if the product will be successful and if it's worth investing money in it. The biggest expense represents the intellectual equity, since it is critical to have a reliable product, which is based on extensive research and professional development techniques. The price of the application can become a blocker, therefore it's price might be dropped. In such scenario other means of profit can exist.
 
-The commercialization of the product is not an easy task. Especially when the product is open sourced. Nevertheless high-quality service and customer support can be provided only to institutions and users that bought the product. The success of the product highly depends on financial strategy and solid economic analysis, which was presented in this chapter.
+The commercialization of the product is not an easy task. High-quality service and customer support can be provided only to institutions and users that bought the product. The success of the product highly depends on financial strategy and solid economic analysis, which was presented in this chapter.

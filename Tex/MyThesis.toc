@@ -16,18 +16,19 @@
 \contentsline {section}{\numberline {3}Architecture of the System}{}
 \contentsline {section}{\numberline {4}Economic Analysis}{}
 \contentsline {subsection}{\numberline {4.1}Project description}{}
-\contentsline {subsection}{\numberline {4.2}Project time schedule}{}
-\contentsline {subsubsection}{\numberline {4.2.1}Objective determination}{}
-\contentsline {subsubsection}{\numberline {4.2.2}Time schedule establishment}{}
-\contentsline {subsection}{\numberline {4.3}Economic motivation}{}
-\contentsline {subsubsection}{\numberline {4.3.1}Tangible and intangible asset expenses}{}
-\contentsline {subsubsection}{\numberline {4.3.2}Salary expenses}{}
-\contentsline {subsection}{\numberline {4.4}Individual person salary}{}
-\contentsline {subsubsection}{\numberline {4.4.1}Indirect expenses}{}
-\contentsline {subsubsection}{\numberline {4.4.2}Wear and depreciation}{}
-\contentsline {subsubsection}{\numberline {4.4.3}Product cost}{}
-\contentsline {subsubsection}{\numberline {4.4.4}Economic indicators and results}{}
-\contentsline {subsection}{\numberline {4.5}Marketing Plan}{}
-\contentsline {subsection}{\numberline {4.6}Economic conclusions}{}
+\contentsline {subsection}{\numberline {4.2}SWOT analysis}{}
+\contentsline {subsection}{\numberline {4.3}Project time schedule}{}
+\contentsline {subsubsection}{\numberline {4.3.1}Objective determination}{}
+\contentsline {subsubsection}{\numberline {4.3.2}Time schedule establishment}{}
+\contentsline {subsection}{\numberline {4.4}Economic motivation}{}
+\contentsline {subsubsection}{\numberline {4.4.1}Tangible and intangible asset expenses}{}
+\contentsline {subsubsection}{\numberline {4.4.2}Salary expenses}{}
+\contentsline {subsection}{\numberline {4.5}Individual person salary}{}
+\contentsline {subsubsection}{\numberline {4.5.1}Indirect expenses}{}
+\contentsline {subsubsection}{\numberline {4.5.2}Wear and depreciation}{}
+\contentsline {subsubsection}{\numberline {4.5.3}Product cost}{}
+\contentsline {subsubsection}{\numberline {4.5.4}Economic indicators and results}{}
+\contentsline {subsection}{\numberline {4.6}Marketing Plan}{}
+\contentsline {subsection}{\numberline {4.7}Economic conclusions}{}
 \contentsline {section}{Conclusions}{}
 \contentsline {section}{References}{}

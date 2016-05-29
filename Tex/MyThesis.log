@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.5.28)  28 MAY 2016 23:10
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.5.28)  29 MAY 2016 06:47
 entering extended mode
 **MyThesis.tex
-(D:\University\Licenta\Teza\Tex\MyThesis.tex
+(D:\University\Licenta\TezaRaport\Tex\MyThesis.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -30,7 +30,7 @@ File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(D:\University\Licenta\Teza\Tex\Style.sty
+(D:\University\Licenta\TezaRaport\Tex\Style.sty
 Package: Style 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsmath.sty"
@@ -474,12 +474,22 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \extratabsurround=\skip100
 \backup@length=\skip101
 )
-\c@theorem=\count176
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
+Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
+\TX@col@width=\dimen145
+\TX@old@table=\dimen146
+\TX@old@col=\dimen147
+\TX@target=\dimen148
+\TX@delta=\dimen149
+\TX@cols=\count176
+\TX@ftn=\toks32
+)
+\c@theorem=\count177
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\titlesec\ttlkeys.def"
 File: ttlkeys.def 2011/12/15
 ))
-(D:\University\Licenta\Teza\Tex\MyThesis.aux)
+(D:\University\Licenta\TezaRaport\Tex\MyThesis.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
@@ -529,17 +539,17 @@ LaTeX Font Info:    ... okay on input line 6.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count177
-\scratchdimen=\dimen145
+\scratchcounter=\count178
+\scratchdimen=\dimen150
 \scratchbox=\box33
-\nofMPsegments=\count178
-\nofMParguments=\count179
-\everyMPshowfont=\toks32
-\MPscratchCnt=\count180
-\MPscratchDim=\dimen146
-\MPnumerator=\count181
-\makeMPintoPDFobject=\count182
-\everyMPtoPDFconversion=\toks33
+\nofMPsegments=\count179
+\nofMParguments=\count180
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count181
+\MPscratchDim=\dimen151
+\MPnumerator=\count182
+\makeMPintoPDFobject=\count183
+\everyMPtoPDFconversion=\toks34
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
@@ -549,9 +559,9 @@ Package caption Info: End \AtBeginDocument code.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\ucs\ucsencs.def"
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
-\c@lstlisting=\count183
+\c@lstlisting=\count184
 
-(D:\University\Licenta\Teza\Tex\Title.tex
+(D:\University\Licenta\TezaRaport\Tex\Title.tex
 ("C:\Program Files\MiKTeX 2.9\tex\latex\ucs\data\uni-2.def"
 File: uni-2.def 2012/04/20 UCS: Unicode data U+0200..U+02FF
 )
@@ -563,31 +573,31 @@ File: uni-0.def 2012/04/20 UCS: Unicode data U+0000..U+00FF
 ) [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}])
-(D:\University\Licenta\Teza\Tex\Abstract.tex) [1
+(D:\University\Licenta\TezaRaport\Tex\Abstract.tex) [1
 
 ]
-(D:\University\Licenta\Teza\Tex\Rezumat.tex) [2
+(D:\University\Licenta\TezaRaport\Tex\Rezumat.tex) [2
 
 ]
-(D:\University\Licenta\Teza\Tex\MyThesis.toc)
+(D:\University\Licenta\TezaRaport\Tex\MyThesis.toc)
 \tf@toc=\write3
  [3
 
 ]
-(D:\University\Licenta\Teza\Tex\MyThesis.lof)
+(D:\University\Licenta\TezaRaport\Tex\MyThesis.lof)
 \tf@lof=\write4
  [4
 
 ]
-(D:\University\Licenta\Teza\Tex\MyThesis.lol)
+(D:\University\Licenta\TezaRaport\Tex\MyThesis.lol)
 \tf@lol=\write5
  [5
 
 ]
-(D:\University\Licenta\Teza\Tex\Abbreviations.tex) [6
+(D:\University\Licenta\TezaRaport\Tex\Abbreviations.tex) [6
 
 ]
-(D:\University\Licenta\Teza\Tex\Introduction.tex
+(D:\University\Licenta\TezaRaport\Tex\Introduction.tex
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2004/09/05 1.3 listings language file
 )
@@ -601,75 +611,76 @@ File: scratch.png Graphic file (type png)
  <use scratch.png>
 Package pdftex.def Info: scratch.png used on input line 68.
 (pdftex.def)             Requested size: 284.52756pt x 207.00745pt.
- [9 <D:/University/Licenta/Teza/Tex/scratch.png>] [10])
-(D:\University\Licenta\Teza\Tex\Chapter_1.tex [11
+ [9 <D:/University/Licenta/TezaRaport/Tex/scratch.png>] [10])
+(D:\University\Licenta\TezaRaport\Tex\Chapter_1.tex [11
 
 
 ])
-(D:\University\Licenta\Teza\Tex\Chapter_2.tex [12
+(D:\University\Licenta\TezaRaport\Tex\Chapter_2.tex [12
 
 
 ])
-(D:\University\Licenta\Teza\Tex\Chapter_3.tex [13
+(D:\University\Licenta\TezaRaport\Tex\Chapter_3.tex [13
 
 
 ])
-(D:\University\Licenta\Teza\Tex\Chapter_4.tex [14
+(D:\University\Licenta\TezaRaport\Tex\Chapter_4.tex [14
 
 
-]
-Overfull \hbox (2.98878pt too wide) in paragraph at lines 86--86
+] [15] [16]
+Overfull \hbox (2.98878pt too wide) in paragraph at lines 154--154
+ []|\OT1/cmr/bx/n/12 Measurement 
+ []
+
+[17]
+Overfull \hbox (2.98878pt too wide) in paragraph at lines 179--179
  []|\OT1/cmr/bx/n/12 Measurement 
  []
 
 
-Overfull \hbox (2.98878pt too wide) in paragraph at lines 106--106
- []|\OT1/cmr/bx/n/12 Measurement 
- []
-
-
-Overfull \hbox (2.60692pt too wide) in paragraph at lines 128--128
+Overfull \hbox (2.60692pt too wide) in paragraph at lines 211--211
  []|\OT1/cmr/m/n/12 Whiteboard| 
  []
 
-[15] [16] [17] [18] [19] [20] [21] [22] [23]) [24]
-(D:\University\Licenta\Teza\Tex\Conclusions.tex [25
+[18] [19] [20] [21] [22] [23] [24]) [25]
+(D:\University\Licenta\TezaRaport\Tex\Conclusions.tex [26
 
 ])
-(D:\University\Licenta\Teza\Tex\biblio.tex) [26
+(D:\University\Licenta\TezaRaport\Tex\biblio.tex) [27
 
 
 
 ]
 
-Package caption Warning: Unused \captionsetup[subfigure] on input line 113.
+Package caption Warning: Unused \captionsetup[subfigure] on input line 114.
 See the caption package documentation for explanation.
 
 
-Package caption Warning: Unused \captionsetup[listing] on input line 150.
+Package caption Warning: Unused \captionsetup[listing] on input line 151.
 See the caption package documentation for explanation.
 
-(D:\University\Licenta\Teza\Tex\MyThesis.aux) ) 
+(D:\University\Licenta\TezaRaport\Tex\MyThesis.aux) ) 
 Here is how much of TeX's memory you used:
- 9458 strings out of 494045
- 131563 string characters out of 3148390
- 321280 words of memory out of 3000000
- 12552 multiletter control sequences out of 15000+200000
+ 9504 strings out of 494045
+ 132324 string characters out of 3148390
+ 321218 words of memory out of 3000000
+ 12595 multiletter control sequences out of 15000+200000
  8906 words of font info for 33 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 49i,15n,45p,1646b,1198s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on MyThesis.pdf (27 pages, 213434 bytes).
+ 49i,15n,45p,1082b,1198s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on MyThesis.pdf (28 pages, 224341 bytes).
 PDF statistics:
- 126 PDF objects out of 1000 (max. 8388607)
+ 133 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
