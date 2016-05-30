@@ -293,7 +293,7 @@ So now having computed social service tax and medical insurance tax, it is possi
 \begin{split}
  WEF &= F_{re} + FS + MI\\
      &= 155700 + 35811 + 7007\\
-     &= 198.518
+     &= 198518
 \end{split}
 \end{equation}
 
@@ -360,8 +360,20 @@ where $IT$ is the income tax, $TS$ -- the taxed salary and $ST$ -- the salary ta
 where $NS$ is the net salary, $GS$ -- gross salary, $IT$ -- income tax, $SF$ -- social fund, $MIF$ -- medical insurance fund.
 
 \subsubsection{Indirect expenses}
-The indirect expenses are things like electricity, Internet traffic, water, etc. Those will be presented in Table \ref{table:indirect_expenses}.
 
+The project is having 140 full working days, one working day has 6 h of work and the total amount of h is 840.
+Laptop consumes 60W/hour, a bulb light consumes arround 100W/hour and the IMac screen consumes from 54.1 W in idle state to 86W at 50 \% brightness and 145W at 100 \% brigthness, I went with somewhere in the middle, because the IMacs where not always during the developemt of the project working. Now the total power consumed withing 140 days is calculated bellow.
+
+\begin{equation}
+\begin{split}
+	PU &= 3 \cdot L \cdot 840h + 2 \cdot S \cdot 840h + 3 * B \cdot 840h \\
+            &= 151200W + 134400W + 252000W\\
+            &= 537,6kW
+\end{split}
+\end{equation}
+where $PU$ is total power usage, $L$ -- laptop power usage, $S$ -- external monitors power usage, $B$ -- bulbs power usage.
+\\
+The indirect expenses are things like electricity, Internet traffic, water, etc. Those will be presented in Table \ref{table:indirect_expenses}.
 \begin{table}[!ht]
 \begin{center}
 \caption{Indirect expenses}
@@ -370,16 +382,14 @@ The indirect expenses are things like electricity, Internet traffic, water, etc.
 \hline
 \textbf{Material} & \textbf{Specification} & \textbf{Measurement unit} & \textbf{Price per unit (MDL)} & \textbf{Quantity} & \multicolumn{1}{>{\centering\arraybackslash}p{4em}|}{\textbf{Sum (MDL)}}\\
 \hline
-Internet & Moldtelecom & Pack & 200.00 & 1 & 200 \\
+Internet & Moldtelecom & Pack & 200.00 & 5 & 1000 \\
 \hline
-Transport & Public bus & Trip & 3.00 & 150 & 450\\
+Transport & Trip & Units &2.00 & 150 & 300\\
 \hline
-Office Leasing & Office & $m^2$ & 115 & 25 & 2875\\
-\hline
-Electricity & Union Fenosa & KWh & 2.16 & 1160 & 2505.6\\
+Electricity & Union Fenosa & KWh & 2.16 & 537,6 & 1161.2\\
 \hline
 
-\multicolumn{5}{|r|}{Total} & 6030.6 \\
+\multicolumn{5}{|r|}{Total} & 2461.3\\
 \hline
 \end{tabular}
 \label{table:indirect_expenses}
@@ -456,8 +466,8 @@ At this point it is crucial to sell the product to clients from mediacal sphere.
 \begin{equation}
  \begin{split}
   GP &= C_{total} / N_{cs} + P_{p}\\
-              &= 187902/400 + 20\% \\
-              &= 563
+              &= 187902/300 + 20\% \\ 626.34
+              &= 751.608
  \end{split}
 \end{equation}
 
@@ -467,8 +477,8 @@ where $GP$ is the gross price, $C_{total}$ -- total product cost, $N_{cs}$ -- nu
 \begin{equation}
  \begin{split}
   P_{sale} &= GP + TX_{sales}\\
-              &= 563 + 20\% \\
-              &= 675.6
+              &= 751.608 + 20\% \\
+              &= 902
  \end{split}
 \end{equation}
 
@@ -478,8 +488,8 @@ where $P_{sale}$ is the sale prices including VAT, $GP$ -- gross price, $TX_{sal
 \begin{equation}
  \begin{split}
   I_{net} &= GP \cdot N_{cs}\\
-              &= 675.6  \cdot 300 \\
-              &= 202680
+              &= 902  \cdot 300 \\
+              &= 270600
  \end{split}
 \end{equation}
 
@@ -489,11 +499,11 @@ where $I_{net}$ is the net income, $GP$ -- gross price, $N_{cs}$ -- number of co
 \begin{equation}
  \begin{split}
   GPr &= I_{net} - C_{production}\\
-              &= 202680 - 187902\\
-              &= 14778\\
+              &= 270600 - 187902\\
+              &= 82698\\
   NPr &= GPr - 12\% \\
-             &= 14778 - 12\% \\
-             &= 13004
+             &= 82698 - 12\% \\
+             &= 72774
  \end{split}
 \end{equation}
 
@@ -502,12 +512,12 @@ where $I_{net}$ is the net income, $C_{production}$ -- cost of production. The p
 
 \begin{equation}
  \begin{split}
-  C_{profit} &= GPr / C_{production} \cdot 100\%\\
-              &= 14778 / 187902 \cdot 100\% \\
-              &= 7.87 \%\\
-  S_{profit} &= GPr / I_{net} \cdot 100\% \\
-             &= 14778 / 202680 \cdot 100\% \\
-             &= 7.30 \%
+  C_{profit} &= GPr / C_{production}\\
+              &= 82698 / 187902\\
+              &= 0.44 \\         
+  S_{profit} &= GPr / I_{net}\\
+             &= 82698 / 270600\\
+             &= 0.3\\
  \end{split}
 \end{equation}
 
