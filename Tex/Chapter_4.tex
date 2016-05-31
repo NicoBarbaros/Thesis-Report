@@ -269,7 +269,7 @@ This year the social service fund is approved to be $23\%$, therefore the salary
 \begin{equation}\label{eq:fs}
 \begin{split}
  FS &= F_{re} \cdot T_{fs} \\
-    &= 155700 \cdot 23 \% \\
+    &= 155700 \cdot 0.23 \\
     &= 35811
 \end{split}
 \end{equation}
@@ -279,7 +279,7 @@ where $FS$ is the salary expense, $F_{re}$ is the salary expense fund and $T_{fs
 \begin{equation}
 \begin{split}
  MI &= F_{re} \cdot T_{mi}\\ 
-    &= 155700 \cdot 4.5\%\\ 
+    &= 155700 \cdot 0.045\\ 
     &= 7006.5
  \end{split}
 \end{equation}
@@ -313,13 +313,13 @@ Along with total work expense fund, it is necessary to compute the annual salary
 Social fund tax this year represents $6\%$, so the amount that should be tax paid in MDL represents
 
 \begin{equation}
- SF = 102400 \cdot 6\% = 6144
+ SF = 102400 \cdot 0.06 = 6144
 \end{equation}
 
 Medical insurance tax represents $4.5\%$ and gives the following result
 
 \begin{equation}
- MIF = 102400 \cdot 4.5\% = 4608
+ MIF = 102400 \cdot 0.045 = 4608
 \end{equation}
 
 In order to proceed with income tax computations, it is necessary to calculate the amount of taxed salary.
@@ -340,7 +340,7 @@ The last but not the least thing to be computed is the total income tax, which i
 \begin{equation}
 \begin{split}
  IT &= TS - ST \\
-      &= 29640 \cdot 7\% + 51880 \cdot 18\% \\
+      &= 29640 \cdot 0.07 + 51880 \cdot 0.18 \\
       & = 2074.8 + 9338.4 = 11413.2
  \end{split}
 \end{equation}
@@ -443,15 +443,15 @@ With all the project expenses computed, it is easy to compute the product cost w
 \hline
 \textbf{Expense type} & \multicolumn{1}{>{\centering\arraybackslash}p{6em}|}{\textbf{Sum (MDL)}} & \multicolumn{1}{>{\centering\arraybackslash}p{6em}|}{\textbf{Percentage (\%)}}\\
 \hline
-Direct expenses & 18200 & 9.67 \\
+Indirect expenses & 2461.3 & 1.15 \\
 \hline
-Indirect expenses & 910 & 0.49 \\
+Direct expenses & 910 & 0.42 \\
 \hline
-Salary expenses & 155700 & 82.87\\
+Salary expenses & 198518 & 92.4\\
 \hline
-Asset wear expenses & 13092 & 6.97 \\
+Asset wear expenses & 13092 & 6.03 \\
 \hline
-\textbf{Total product cost} & \textbf{187902} & \textbf{100}\\
+\textbf{Total product cost} & \textbf{214981.3} & \textbf{100}\\
 \hline
 \end{tabular}
 \label{table:product_cost}
@@ -466,8 +466,8 @@ At this point it is crucial to sell the product to clients from mediacal sphere.
 \begin{equation}
  \begin{split}
   GP &= C_{total} / N_{cs} + P_{p}\\
-              &= 187902/300 + 20\% \\ 626.34
-              &= 751.608
+              &= 214981.3/300 + (214981.3/300)\cdot 0.2 \\
+              &= 859.9
  \end{split}
 \end{equation}
 
@@ -477,8 +477,8 @@ where $GP$ is the gross price, $C_{total}$ -- total product cost, $N_{cs}$ -- nu
 \begin{equation}
  \begin{split}
   P_{sale} &= GP + TX_{sales}\\
-              &= 751.608 + 20\% \\
-              &= 902
+              &= 859.9 + 859.9 \cdot 0.2 \\
+              &= 1031.88
  \end{split}
 \end{equation}
 
@@ -488,8 +488,8 @@ where $P_{sale}$ is the sale prices including VAT, $GP$ -- gross price, $TX_{sal
 \begin{equation}
  \begin{split}
   I_{net} &= GP \cdot N_{cs}\\
-              &= 902  \cdot 300 \\
-              &= 270600
+              &= 1031.88  \cdot 300 \\
+              &= 309564
  \end{split}
 \end{equation}
 
@@ -499,11 +499,11 @@ where $I_{net}$ is the net income, $GP$ -- gross price, $N_{cs}$ -- number of co
 \begin{equation}
  \begin{split}
   GPr &= I_{net} - C_{production}\\
-              &= 270600 - 187902\\
-              &= 82698\\
+              &= 309564 - 214981\\
+              &= 94583\\
   NPr &= GPr - 12\% \\
-             &= 82698 - 12\% \\
-             &= 72774
+             &= 94583 - 94583 \cdot 0.12 \\
+             &= 83233.04
  \end{split}
 \end{equation}
 
@@ -513,10 +513,10 @@ where $I_{net}$ is the net income, $C_{production}$ -- cost of production. The p
 \begin{equation}
  \begin{split}
   C_{profit} &= GPr / C_{production}\\
-              &= 82698 / 187902\\
+              &= 94583 / 214981\\
               &= 0.44 \\         
   S_{profit} &= GPr / I_{net}\\
-             &= 82698 / 270600\\
+             &= 94583 / 309564\\
              &= 0.3\\
  \end{split}
 \end{equation}
