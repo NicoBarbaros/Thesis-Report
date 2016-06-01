@@ -1,42 +1,42 @@
 \thispagestyle {empty}
-\contentsline {section}{List of figures}{}
-\contentsline {section}{Listings}{}
-\contentsline {section}{Abbreviations}{}
-\contentsline {section}{Introduction}{}
-\contentsline {subsection}{\numberline {0.1}What problem is being solved}{}
-\contentsline {subsection}{\numberline {0.2}Why this problem is important}{}
-\contentsline {subsection}{\numberline {0.3}Other products on the market}{}
-\contentsline {subsubsection}{\numberline {0.3.1}Advantages}{}
-\contentsline {subsubsection}{\numberline {0.3.2}Disadvantages}{}
-\contentsline {subsection}{\numberline {0.4}Short thesis description}{}
-\contentsline {subsection}{\numberline {0.5}Chapters description}{}
-\contentsline {section}{\numberline {1}System analysis}{}
-\contentsline {subsection}{\numberline {1.1}Short thesis description}{}
-\contentsline {section}{\numberline {2} Implementation and Used Technologies}{}
-\contentsline {section}{\numberline {3}Architecture of the System}{}
-\contentsline {subsection}{\numberline {3.1}UML Diagrams}{}
-\contentsline {subsubsection}{\numberline {3.1.1}Use Case Diagram}{}
-\contentsline {subsubsection}{\numberline {3.1.2}Deployment Diagram}{}
-\contentsline {subsubsection}{\numberline {3.1.3}Class Diagram}{}
-\contentsline {subsubsection}{\numberline {3.1.4}Sequence Diagram}{}
-\contentsline {subsubsection}{\numberline {3.1.5}Activity Diagram}{}
-\contentsline {subsubsection}{\numberline {3.1.6}State Diagram}{}
-\contentsline {subsection}{\numberline {3.2}User Experience}{}
-\contentsline {section}{\numberline {4}Economic Analysis}{}
-\contentsline {subsection}{\numberline {4.1}Project description}{}
-\contentsline {subsection}{\numberline {4.2}SWOT analysis}{}
-\contentsline {subsection}{\numberline {4.3}Project time schedule}{}
-\contentsline {subsubsection}{\numberline {4.3.1}Objective determination}{}
-\contentsline {subsubsection}{\numberline {4.3.2}Time schedule establishment}{}
-\contentsline {subsection}{\numberline {4.4}Economic motivation}{}
-\contentsline {subsubsection}{\numberline {4.4.1}Tangible and intangible asset expenses}{}
-\contentsline {subsubsection}{\numberline {4.4.2}Salary expenses}{}
-\contentsline {subsection}{\numberline {4.5}Individual person salary}{}
-\contentsline {subsubsection}{\numberline {4.5.1}Indirect expenses}{}
-\contentsline {subsubsection}{\numberline {4.5.2}Wear and depreciation}{}
-\contentsline {subsubsection}{\numberline {4.5.3}Product cost}{}
-\contentsline {subsubsection}{\numberline {4.5.4}Economic indicators and results}{}
-\contentsline {subsection}{\numberline {4.6}Marketing Plan}{}
-\contentsline {subsection}{\numberline {4.7}Economic conclusions}{}
-\contentsline {section}{Conclusions}{}
-\contentsline {section}{References}{}
+\contentsline {section}{List of figures}{10}
+\contentsline {section}{Listings}{11}
+\contentsline {section}{Abbreviations}{12}
+\contentsline {section}{Introduction}{13}
+\contentsline {subsection}{\numberline {0.1}What problem is being solved}{13}
+\contentsline {subsection}{\numberline {0.2}Why this problem is important}{14}
+\contentsline {subsection}{\numberline {0.3}Other products on the market}{14}
+\contentsline {subsubsection}{\numberline {0.3.1}Advantages}{15}
+\contentsline {subsubsection}{\numberline {0.3.2}Disadvantages}{15}
+\contentsline {subsection}{\numberline {0.4}Short thesis description}{15}
+\contentsline {subsection}{\numberline {0.5}Chapters description}{16}
+\contentsline {section}{\numberline {1}System analysis}{17}
+\contentsline {subsection}{\numberline {1.1}Short thesis description}{17}
+\contentsline {section}{\numberline {2} Implementation and Used Technologies}{18}
+\contentsline {section}{\numberline {3}Architecture of the System}{19}
+\contentsline {subsection}{\numberline {3.1}UML Diagrams}{19}
+\contentsline {subsubsection}{\numberline {3.1.1}Use Case Diagram}{19}
+\contentsline {subsubsection}{\numberline {3.1.2}Deployment Diagram}{21}
+\contentsline {subsubsection}{\numberline {3.1.3}Class Diagram}{22}
+\contentsline {subsubsection}{\numberline {3.1.4}Sequence Diagram}{24}
+\contentsline {subsubsection}{\numberline {3.1.5}Activity Diagram}{25}
+\contentsline {subsubsection}{\numberline {3.1.6}State Diagram}{26}
+\contentsline {subsection}{\numberline {3.2}User Experience}{28}
+\contentsline {section}{\numberline {4}Economic Analysis}{29}
+\contentsline {subsection}{\numberline {4.1}Project description}{29}
+\contentsline {subsection}{\numberline {4.2}SWOT analysis}{29}
+\contentsline {subsection}{\numberline {4.3}Project time schedule}{30}
+\contentsline {subsubsection}{\numberline {4.3.1}Objective determination}{30}
+\contentsline {subsubsection}{\numberline {4.3.2}Time schedule establishment}{30}
+\contentsline {subsection}{\numberline {4.4}Economic motivation}{32}
+\contentsline {subsubsection}{\numberline {4.4.1}Tangible and intangible asset expenses}{32}
+\contentsline {subsubsection}{\numberline {4.4.2}Salary expenses}{34}
+\contentsline {subsection}{\numberline {4.5}Individual person salary}{35}
+\contentsline {subsubsection}{\numberline {4.5.1}Indirect expenses}{36}
+\contentsline {subsubsection}{\numberline {4.5.2}Wear and depreciation}{36}
+\contentsline {subsubsection}{\numberline {4.5.3}Product cost}{37}
+\contentsline {subsubsection}{\numberline {4.5.4}Economic indicators and results}{37}
+\contentsline {subsection}{\numberline {4.6}Marketing Plan}{39}
+\contentsline {subsection}{\numberline {4.7}Economic conclusions}{40}
+\contentsline {section}{Conclusions}{41}
+\contentsline {section}{References}{42}

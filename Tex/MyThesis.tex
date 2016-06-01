@@ -1,11 +1,13 @@
 \documentclass[12pt,a4paper,titlepage]{article}
-\usepackage{Style}
-
+\usepackage{style}
+\usepackage{pdfpages}
+\usepackage{eso-pic}
+\graphicspath{ {../figures/} }% figures are taken from this folder
 % the document should be compiled with pdfLaTex
 
 \begin{document}
+\pagenumbering{gobble}
 
-% \numberwithin{lstlisting}{section}
 
 \phantomsection
 
@@ -21,9 +23,11 @@
 \clearpage
 
 \tableofcontents
-\addtocontents{toc}{\protect\thispagestyle{empty}} % no page number on the table of contents page
+\addtocontents{toc}{\protect\thispagestyle{empty}} 3.
 \cleardoublepage
 
+\pagenumbering{arabic}
+\setcounter{page}{10}
 \listoffigures
 \addcontentsline{toc}{section}{List of figures}
 \clearpage
@@ -32,6 +36,7 @@
 \addcontentsline{toc}{section}{Listings}
 \thispagestyle{empty}
 \clearpage
+
 
 \phantomsection
 \addcontentsline{toc}{section}{Abbreviations}

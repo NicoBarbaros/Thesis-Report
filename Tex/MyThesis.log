@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.5.28)  1 JUN 2016 01:22
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.5.28)  1 JUN 2016 11:21
 entering extended mode
 **MyThesis.tex
 (D:\University\Licenta\TezaRaport\Tex\MyThesis.tex
@@ -30,9 +30,12 @@ File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(D:\University\Licenta\TezaRaport\Tex\Style.sty
-Package: Style 
+(D:\University\Licenta\TezaRaport\Tex\style.sty
 
+LaTeX Warning: You have requested package `style',
+               but the package provides `Style'.
+
+Package: Style 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsmath.sty"
 Package: amsmath 2000/07/18 v2.13 AMS math features
 \@mathmargin=\skip43
@@ -489,19 +492,36 @@ Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\titlesec\ttlkeys.def"
 File: ttlkeys.def 2011/12/15
 ))
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.sty"
+Package: pdfpages 2012/04/03 v0.4s Insert pages of external PDF documents (AM)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty"
+Package: eso-pic 2010/10/06 v2.0c eso-pic (RN)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty"
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def"
+File: pppdftex.def 2012/04/03 v0.4s Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box33
+\AM@toc@title=\toks33
+\c@AM@survey=\count178
+\AM@templatesizebox=\box34
+)
 (D:\University\Licenta\TezaRaport\Tex\MyThesis.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -539,17 +559,17 @@ LaTeX Font Info:    ... okay on input line 6.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count178
+\scratchcounter=\count179
 \scratchdimen=\dimen150
-\scratchbox=\box33
-\nofMPsegments=\count179
-\nofMParguments=\count180
-\everyMPshowfont=\toks33
-\MPscratchCnt=\count181
+\scratchbox=\box35
+\nofMPsegments=\count180
+\nofMParguments=\count181
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count182
 \MPscratchDim=\dimen151
-\MPnumerator=\count182
-\makeMPintoPDFobject=\count183
-\everyMPtoPDFconversion=\toks34
+\MPnumerator=\count183
+\makeMPintoPDFobject=\count184
+\everyMPtoPDFconversion=\toks35
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
@@ -559,7 +579,8 @@ Package caption Info: End \AtBeginDocument code.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\ucs\ucsencs.def"
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
-\c@lstlisting=\count184
+\c@lstlisting=\count185
+\AtBeginShipoutBox=\box36
 
 (D:\University\Licenta\TezaRaport\Tex\Title.tex
 ("C:\Program Files\MiKTeX 2.9\tex\latex\ucs\data\uni-2.def"
@@ -586,15 +607,15 @@ File: uni-0.def 2012/04/20 UCS: Unicode data U+0000..U+00FF
  [4]
 (D:\University\Licenta\TezaRaport\Tex\MyThesis.lof)
 \tf@lof=\write4
- [5
+ [10
 
 ]
 (D:\University\Licenta\TezaRaport\Tex\MyThesis.lol)
 \tf@lol=\write5
- [6
+ [11
 
 ]
-(D:\University\Licenta\TezaRaport\Tex\Abbreviations.tex) [7
+(D:\University\Licenta\TezaRaport\Tex\Abbreviations.tex) [12
 
 ]
 (D:\University\Licenta\TezaRaport\Tex\Introduction.tex
@@ -603,20 +624,20 @@ File: lstlang1.sty 2004/09/05 1.3 listings language file
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\ucs\data\uni-32.def"
 File: uni-32.def 2012/04/20 UCS: Unicode data U+2000..U+20FF
-) [8
+) [13
 
-] [9]
+] [14]
 <scratch.png, id=38, 1027.84pt x 747.79375pt>
 File: scratch.png Graphic file (type png)
  <use scratch.png>
 Package pdftex.def Info: scratch.png used on input line 68.
 (pdftex.def)             Requested size: 284.52756pt x 207.00745pt.
- [10 <D:/University/Licenta/TezaRaport/Tex/scratch.png>] [11])
-(D:\University\Licenta\TezaRaport\Tex\Chapter_1.tex [12
+ [15 <D:/University/Licenta/TezaRaport/Tex/scratch.png>] [16])
+(D:\University\Licenta\TezaRaport\Tex\Chapter_1.tex [17
 
 
 ])
-(D:\University\Licenta\TezaRaport\Tex\Chapter_2.tex [13
+(D:\University\Licenta\TezaRaport\Tex\Chapter_2.tex [18
 
 
 ])
@@ -629,8 +650,12 @@ llowed
 File: ../figures/2_uc_general.pdf Graphic file (type pdf)
 
 <use ../figures/2_uc_general.pdf>
-Package pdftex.def Info: ../figures/2_uc_general.pdf used on input line 22.
+Package pdftex.def Info: ../figures/2_uc_general.pdf used on input line 39.
 (pdftex.def)             Requested size: 455.24408pt x 262.30948pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 
 pdfTeX warning: pdflatex (file D:/University/Licenta/TezaRaport/figures/1_uc_ex
@@ -641,16 +666,16 @@ File: ../figures/1_uc_exercise_stage.pdf Graphic file (type pdf)
 
 <use ../figures/1_uc_exercise_stage.pdf>
 Package pdftex.def Info: ../figures/1_uc_exercise_stage.pdf used on input line 
-28.
+45.
 (pdftex.def)             Requested size: 455.24408pt x 272.85246pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[14
+[19
 
 
- <D:/University/Licenta/TezaRaport/figures/2_uc_general.pdf>] [15 <D:/Universit
+] [20 <D:/University/Licenta/TezaRaport/figures/2_uc_general.pdf> <D:/Universit
 y/Licenta/TezaRaport/figures/1_uc_exercise_stage.pdf>]
 
 pdfTeX warning: pdflatex (file D:/University/Licenta/TezaRaport/figures/1_deplo
@@ -660,10 +685,10 @@ y_diagram.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.
 File: ../figures/1_deploy_diagram.pdf Graphic file (type pdf)
 
 <use ../figures/1_deploy_diagram.pdf>
-Package pdftex.def Info: ../figures/1_deploy_diagram.pdf used on input line 37.
+Package pdftex.def Info: ../figures/1_deploy_diagram.pdf used on input line 67.
 
 (pdftex.def)             Requested size: 455.24408pt x 220.13753pt.
- [16
+ [21
 
  <D:/University/Licenta/TezaRaport/figures/1_deploy_diagram.pdf>]
 
@@ -674,9 +699,9 @@ owed
 File: ../figures/1_class_ui.pdf Graphic file (type pdf)
 
 <use ../figures/1_class_ui.pdf>
-Package pdftex.def Info: ../figures/1_class_ui.pdf used on input line 46.
+Package pdftex.def Info: ../figures/1_class_ui.pdf used on input line 91.
 (pdftex.def)             Requested size: 455.24408pt x 357.19633pt.
- [17
+ [22
 
  <D:/University/Licenta/TezaRaport/figures/1_class_ui.pdf>]
 
@@ -687,10 +712,10 @@ _leapstates.pdf): PDF inclusion: found PDF version <1.7>, but at most version <
 File: ../figures/2_class_leapstates.pdf Graphic file (type pdf)
 
 <use ../figures/2_class_leapstates.pdf>
-Package pdftex.def Info: ../figures/2_class_leapstates.pdf used on input line 5
-4.
+Package pdftex.def Info: ../figures/2_class_leapstates.pdf used on input line 9
+9.
 (pdftex.def)             Requested size: 455.24408pt x 346.65337pt.
- [18
+ [23
 
  <D:/University/Licenta/TezaRaport/figures/2_class_leapstates.pdf>]
 
@@ -702,9 +727,9 @@ File: ../figures/1_sequence_exercise.pdf Graphic file (type pdf)
 
 <use ../figures/1_sequence_exercise.pdf>
 Package pdftex.def Info: ../figures/1_sequence_exercise.pdf used on input line 
-63.
+108.
 (pdftex.def)             Requested size: 455.24408pt x 188.50858pt.
- [19
+ [24
 
  <D:/University/Licenta/TezaRaport/figures/1_sequence_exercise.pdf>]
 
@@ -716,9 +741,9 @@ File: ../figures/1_activity_performs_exercise.pdf Graphic file (type pdf)
 
 <use ../figures/1_activity_performs_exercise.pdf>
 Package pdftex.def Info: ../figures/1_activity_performs_exercise.pdf used on in
-put line 72.
+put line 133.
 (pdftex.def)             Requested size: 455.24408pt x 312.33133pt.
- [20
+ [25
 
  <D:/University/Licenta/TezaRaport/figures/1_activity_performs_exercise.pdf>]
 
@@ -730,9 +755,9 @@ File: ../figures/1_state_chooseExercise.pdf Graphic file (type pdf)
 
 <use ../figures/1_state_chooseExercise.pdf>
 Package pdftex.def Info: ../figures/1_state_chooseExercise.pdf used on input li
-ne 82.
+ne 164.
 (pdftex.def)             Requested size: 455.24408pt x 167.4226pt.
- [21
+ [26
 
  <D:/University/Licenta/TezaRaport/figures/1_state_chooseExercise.pdf>]
 
@@ -744,22 +769,22 @@ File: ../figures/2_state_performexercise.pdf Graphic file (type pdf)
 
 <use ../figures/2_state_performexercise.pdf>
 Package pdftex.def Info: ../figures/2_state_performexercise.pdf used on input l
-ine 90.
+ine 172.
 (pdftex.def)             Requested size: 455.24408pt x 167.42262pt.
- [22
+ [27
 
- <D:/University/Licenta/TezaRaport/figures/2_state_performexercise.pdf>] [23
+ <D:/University/Licenta/TezaRaport/figures/2_state_performexercise.pdf>] [28
 
 ])
-(D:\University\Licenta\TezaRaport\Tex\Chapter_4.tex [24
+(D:\University\Licenta\TezaRaport\Tex\Chapter_4.tex [29
 
 
-] [25] [26]
+] [30] [31]
 Overfull \hbox (2.98878pt too wide) in paragraph at lines 154--154
  []|\OT1/cmr/bx/n/12 Measurement 
  []
 
-[27]
+[32]
 Overfull \hbox (2.98878pt too wide) in paragraph at lines 179--179
  []|\OT1/cmr/bx/n/12 Measurement 
  []
@@ -769,11 +794,11 @@ Overfull \hbox (2.60692pt too wide) in paragraph at lines 211--211
  []|\OT1/cmr/m/n/12 Whiteboard| 
  []
 
-[28] [29] [30] [31] [32] [33] [34]) [35]
-(D:\University\Licenta\TezaRaport\Tex\Conclusions.tex [36
+[33] [34] [35] [36] [37] [38] [39]) [40]
+(D:\University\Licenta\TezaRaport\Tex\Conclusions.tex [41
 
 ])
-(D:\University\Licenta\TezaRaport\Tex\biblio.tex) [37
+(D:\University\Licenta\TezaRaport\Tex\biblio.tex) [42
 
 
 
@@ -788,10 +813,10 @@ See the caption package documentation for explanation.
 
 (D:\University\Licenta\TezaRaport\Tex\MyThesis.aux) ) 
 Here is how much of TeX's memory you used:
- 9559 strings out of 494045
- 134047 string characters out of 3148390
- 321299 words of memory out of 3000000
- 12640 multiletter control sequences out of 15000+200000
+ 10200 strings out of 494045
+ 144574 string characters out of 3148390
+ 334001 words of memory out of 3000000
+ 13266 multiletter control sequences out of 15000+200000
  8906 words of font info for 33 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  49i,15n,45p,980b,1198s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -804,7 +829,7 @@ sfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 ><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on MyThesis.pdf (38 pages, 1803784 bytes).
+Output written on MyThesis.pdf (38 pages, 1807483 bytes).
 PDF statistics:
  351 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
