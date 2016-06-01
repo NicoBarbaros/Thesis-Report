@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.5.28)  1 JUN 2016 11:42
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.5.28)  2 JUN 2016 00:13
 entering extended mode
 **MyThesis.tex
 (D:\University\Licenta\TezaRaport\Tex\MyThesis.tex
@@ -650,24 +650,8 @@ llowed
 File: ../figures/2_uc_general.pdf Graphic file (type pdf)
 
 <use ../figures/2_uc_general.pdf>
-Package pdftex.def Info: ../figures/2_uc_general.pdf used on input line 39.
+Package pdftex.def Info: ../figures/2_uc_general.pdf used on input line 43.
 (pdftex.def)             Requested size: 455.24408pt x 262.30948pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-
-pdfTeX warning: pdflatex (file D:/University/Licenta/TezaRaport/figures/1_uc_ex
-ercise_stage.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
-<1.5> allowed
-<../figures/1_uc_exercise_stage.pdf, id=54, 614.295pt x 794.97pt>
-File: ../figures/1_uc_exercise_stage.pdf Graphic file (type pdf)
-
-<use ../figures/1_uc_exercise_stage.pdf>
-Package pdftex.def Info: ../figures/1_uc_exercise_stage.pdf used on input line 
-45.
-(pdftex.def)             Requested size: 455.24408pt x 272.85246pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -675,22 +659,41 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [19
 
 
-] [20 <D:/University/Licenta/TezaRaport/figures/2_uc_general.pdf> <D:/Universit
-y/Licenta/TezaRaport/figures/1_uc_exercise_stage.pdf>]
+]
+
+pdfTeX warning: pdflatex (file D:/University/Licenta/TezaRaport/figures/1_uc_ex
+ercise_stage.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
+<1.5> allowed
+<../figures/1_uc_exercise_stage.pdf, id=57, 614.295pt x 794.97pt>
+File: ../figures/1_uc_exercise_stage.pdf Graphic file (type pdf)
+
+<use ../figures/1_uc_exercise_stage.pdf>
+Package pdftex.def Info: ../figures/1_uc_exercise_stage.pdf used on input line 
+52.
+(pdftex.def)             Requested size: 455.24408pt x 272.85246pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
 
 pdfTeX warning: pdflatex (file D:/University/Licenta/TezaRaport/figures/1_deplo
 y_diagram.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.
 5> allowed
-<../figures/1_deploy_diagram.pdf, id=98, 614.295pt x 794.97pt>
+<../figures/1_deploy_diagram.pdf, id=59, 614.295pt x 794.97pt>
 File: ../figures/1_deploy_diagram.pdf Graphic file (type pdf)
 
 <use ../figures/1_deploy_diagram.pdf>
-Package pdftex.def Info: ../figures/1_deploy_diagram.pdf used on input line 67.
+Package pdftex.def Info: ../figures/1_deploy_diagram.pdf used on input line 75.
 
 (pdftex.def)             Requested size: 455.24408pt x 220.13753pt.
- [21
 
- <D:/University/Licenta/TezaRaport/figures/1_deploy_diagram.pdf>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[20 <D:/University/Licenta/TezaRaport/figures/2_uc_general.pdf>] [21 <D:/Univer
+sity/Licenta/TezaRaport/figures/1_uc_exercise_stage.pdf> <D:/University/Licenta
+/TezaRaport/figures/1_deploy_diagram.pdf>]
 
 pdfTeX warning: pdflatex (file D:/University/Licenta/TezaRaport/figures/1_class
 _ui.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> all
@@ -699,8 +702,8 @@ owed
 File: ../figures/1_class_ui.pdf Graphic file (type pdf)
 
 <use ../figures/1_class_ui.pdf>
-Package pdftex.def Info: ../figures/1_class_ui.pdf used on input line 91.
-(pdftex.def)             Requested size: 455.24408pt x 357.19633pt.
+Package pdftex.def Info: ../figures/1_class_ui.pdf used on input line 100.
+(pdftex.def)             Requested size: 455.24408pt x 420.45424pt.
  [22
 
  <D:/University/Licenta/TezaRaport/figures/1_class_ui.pdf>]
@@ -712,8 +715,8 @@ _leapstates.pdf): PDF inclusion: found PDF version <1.7>, but at most version <
 File: ../figures/2_class_leapstates.pdf Graphic file (type pdf)
 
 <use ../figures/2_class_leapstates.pdf>
-Package pdftex.def Info: ../figures/2_class_leapstates.pdf used on input line 9
-9.
+Package pdftex.def Info: ../figures/2_class_leapstates.pdf used on input line 1
+08.
 (pdftex.def)             Requested size: 455.24408pt x 346.65337pt.
  [23
 
@@ -727,7 +730,7 @@ File: ../figures/1_sequence_exercise.pdf Graphic file (type pdf)
 
 <use ../figures/1_sequence_exercise.pdf>
 Package pdftex.def Info: ../figures/1_sequence_exercise.pdf used on input line 
-108.
+119.
 (pdftex.def)             Requested size: 455.24408pt x 188.50858pt.
  [24
 
@@ -741,8 +744,8 @@ File: ../figures/1_activity_performs_exercise.pdf Graphic file (type pdf)
 
 <use ../figures/1_activity_performs_exercise.pdf>
 Package pdftex.def Info: ../figures/1_activity_performs_exercise.pdf used on in
-put line 133.
-(pdftex.def)             Requested size: 455.24408pt x 312.33133pt.
+put line 144.
+(pdftex.def)             Requested size: 455.24408pt x 335.57028pt.
  [25
 
  <D:/University/Licenta/TezaRaport/figures/1_activity_performs_exercise.pdf>]
@@ -755,7 +758,7 @@ File: ../figures/1_state_chooseExercise.pdf Graphic file (type pdf)
 
 <use ../figures/1_state_chooseExercise.pdf>
 Package pdftex.def Info: ../figures/1_state_chooseExercise.pdf used on input li
-ne 164.
+ne 175.
 (pdftex.def)             Requested size: 455.24408pt x 167.4226pt.
  [26
 
@@ -769,22 +772,18 @@ File: ../figures/2_state_performexercise.pdf Graphic file (type pdf)
 
 <use ../figures/2_state_performexercise.pdf>
 Package pdftex.def Info: ../figures/2_state_performexercise.pdf used on input l
-ine 172.
+ine 182.
 (pdftex.def)             Requested size: 455.24408pt x 167.42262pt.
- [27
-
- <D:/University/Licenta/TezaRaport/figures/2_state_performexercise.pdf>] [28
-
-])
-(D:\University\Licenta\TezaRaport\Tex\Chapter_4.tex [29
+ [27 <D:/University/Licenta/TezaRaport/figures/2_state_performexercise.pdf>])
+(D:\University\Licenta\TezaRaport\Tex\Chapter_4.tex [28
 
 
-] [30] [31]
+] [29] [30]
 Overfull \hbox (2.98878pt too wide) in paragraph at lines 154--154
  []|\OT1/cmr/bx/n/12 Measurement 
  []
 
-[32]
+[31]
 Overfull \hbox (2.98878pt too wide) in paragraph at lines 179--179
  []|\OT1/cmr/bx/n/12 Measurement 
  []
@@ -794,11 +793,11 @@ Overfull \hbox (2.60692pt too wide) in paragraph at lines 211--211
  []|\OT1/cmr/m/n/12 Whiteboard| 
  []
 
-[33] [34] [35] [36] [37] [38] [39]) [40]
-(D:\University\Licenta\TezaRaport\Tex\Conclusions.tex [41
+[32] [33] [34] [35] [36] [37] [38]) [39]
+(D:\University\Licenta\TezaRaport\Tex\Conclusions.tex [40
 
 ])
-(D:\University\Licenta\TezaRaport\Tex\biblio.tex) [42
+(D:\University\Licenta\TezaRaport\Tex\biblio.tex) [41
 
 
 
@@ -819,7 +818,7 @@ Here is how much of TeX's memory you used:
  13266 multiletter control sequences out of 15000+200000
  8906 words of font info for 33 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 49i,15n,45p,980b,1198s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 49i,15n,45p,1013b,1198s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2
 .9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts
 /type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
@@ -829,9 +828,9 @@ sfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 ><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on MyThesis.pdf (38 pages, 1807483 bytes).
+Output written on MyThesis.pdf (37 pages, 1810400 bytes).
 PDF statistics:
- 351 PDF objects out of 1000 (max. 8388607)
+ 348 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  105 words of extra memory for PDF output out of 10000 (max. 10000000)
 
