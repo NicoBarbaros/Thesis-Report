@@ -8,55 +8,63 @@
 \begin{document}
 \pagenumbering{gobble}
 
-\phantomsection
 
 %##############################################################################
 
-\input{Title.tex}
-\cleardoublepage
+
+\includepdf[pages={1}]{others/title.pdf}
+\includepdf[pages = {1}]{others/signatures.pdf}
+\includepdf[pages={1,2}]{others/notebook.pdf}
+
+%\includepdf[pages={1}]{aviz.pdf}
 
 \input{Abstract.tex}
-\clearpage
+\newpage
 
 \input{Rezumat.tex}
-\clearpage
+\newpage
 
+\AddToShipoutPicture*{%
+\put(0,0){\includegraphics{others/page1}}%
+}
 \tableofcontents
-\addtocontents{toc}{\protect\thispagestyle{empty}} 3.
-\cleardoublepage
+\AddToShipoutPicture*{%
+\put(0,0){\includegraphics{others/page2}}%
+}
+\newpage
+
+
+%\tableofcontents
+%\addtocontents{toc}{\protect\thispagestyle{empty}} 3.
+%\cleardoublepage
 
 \pagenumbering{arabic}
 \setcounter{page}{10}
-
-\listoffigures
 \addcontentsline{toc}{section}{List of figures}
-\clearpage
-
+\listoffigures
+\newpage
+\addcontentsline{toc}{section}{List of listings}
 \lstlistoflistings
-\addcontentsline{toc}{section}{Listings}
-\thispagestyle{empty}
-\clearpage
+\newpage
+\addcontentsline{toc}{section}{List of abbreviations}
 
-
-\phantomsection
-\addcontentsline{toc}{section}{Abbreviations}
-\input{Abbreviations.tex}
-\thispagestyle{empty}
+\include{other/abbreviation}
 \cleardoublepage
 
 \phantomsection
 \addcontentsline{toc}{section}{Introduction}
 \input{Introduction.tex}
-\cleardoublepage
+
 
 \input{Chapter_1.tex}
+\cleardoublepage
+
+\input{Chapter_3.tex}
 \cleardoublepage
 
 \input{Chapter_2.tex}
 \cleardoublepage
 
-\input{Chapter_3.tex}
-\cleardoublepage
 
 \input{Chapter_4.tex}
 \cleardoublepage

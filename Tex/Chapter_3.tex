@@ -1,5 +1,5 @@
 \section{Architecture of the System}
-\phantomsection
+%\phantomsection
 \subsection{UML Diagrams}
 The Unified Modeling Language (UML)\cite{uml} is a development and all use modeling language in the field of software engineering. Is indended to assure a standard way of visualizing the design of the system that it was made for.
 
@@ -139,6 +139,7 @@ Purpose of activity diagram can be:
 By now every step of exercising was particularly described.
 The activity diagram from  \mbox{figure} \ref{activity_performs}, represents the list of actions done on the exercise part of the application. Every executed step in the chain  depends on the previous one.
 
+Before selecting an action from menu the user must to connect the Leap Motion device. When the status of Leap Motion device is connected the user can choose an exercise. At the exercise choosing the right tips are displayed in a panel placed in the middle most right side of the screen. While the user keeps waving his hand and performing the exercises, the Leap Motion API tracks the hands and sends the results to UI where eventually the user can see it. After done with one set of exercising the user has the option to choose another one or to exit. And there ends the process of doing a kinetoteraphy exercise.
 \begin{figure}[!h]
 \centering
 \includegraphics[trim={2cm 13cm 0 0.5cm},clip, width = 16cm]{1_activity_performs_exercise}
