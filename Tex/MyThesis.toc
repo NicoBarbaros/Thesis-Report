@@ -2,49 +2,53 @@
 \contentsline {section}{List of listings}{11}{Doc-Start}
 \contentsline {section}{List of abbreviations}{12}{Doc-Start}
 \contentsline {section}{Introduction}{12}{section*.1}
-\contentsline {section}{\numberline {1}System analysis}{13}{section.1}
-\contentsline {subsection}{\numberline {1.1}Motivation and the problem description}{13}{subsection.1.1}
-\contentsline {subsection}{\numberline {1.2}Existing solutions and their drawbacks}{13}{subsection.1.2}
-\contentsline {subsection}{\numberline {1.3}Proposed solution}{13}{subsection.1.3}
-\contentsline {subsection}{\numberline {1.4}What problem is being solved}{13}{subsection.1.4}
-\contentsline {subsection}{\numberline {1.5}Why this problem is important}{14}{subsection.1.5}
-\contentsline {subsection}{\numberline {1.6}Other products on the market}{15}{subsection.1.6}
-\contentsline {subsubsection}{\numberline {1.6.1}Advantages}{16}{subsubsection.1.6.1}
-\contentsline {subsubsection}{\numberline {1.6.2}Disadvantages}{16}{subsubsection.1.6.2}
-\contentsline {subsection}{\numberline {1.7}Short thesis description}{16}{subsection.1.7}
-\contentsline {subsection}{\numberline {1.8}Chapters description}{17}{subsection.1.8}
-\contentsline {section}{\numberline {2}Architecture of the System}{18}{section.2}
-\contentsline {subsection}{\numberline {2.1}UML Diagrams}{18}{subsection.2.1}
-\contentsline {subsubsection}{\numberline {2.1.1}Use Case Diagram}{18}{subsubsection.2.1.1}
-\contentsline {subsubsection}{\numberline {2.1.2}Deployment Diagram}{19}{subsubsection.2.1.2}
-\contentsline {subsubsection}{\numberline {2.1.3}Class Diagram}{21}{subsubsection.2.1.3}
-\contentsline {subsubsection}{\numberline {2.1.4}Sequence Diagram}{23}{subsubsection.2.1.4}
-\contentsline {subsubsection}{\numberline {2.1.5}Activity Diagram}{24}{subsubsection.2.1.5}
-\contentsline {subsubsection}{\numberline {2.1.6}State Diagram}{26}{subsubsection.2.1.6}
-\contentsline {subsection}{\numberline {2.2}User Experience}{27}{subsection.2.2}
-\contentsline {section}{\numberline {3} Implementation and Used Technologies}{28}{section.3}
-\contentsline {subsection}{\numberline {3.1}System Requirements}{28}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Technologies Used}{28}{subsection.3.2}
-\contentsline {subsubsection}{\numberline {3.2.1}Unity}{28}{subsubsection.3.2.1}
-\contentsline {subsubsection}{\numberline {3.2.2}Leap Motion}{28}{subsubsection.3.2.2}
-\contentsline {subsubsection}{\numberline {3.2.3}C\# or JavaScript?}{28}{subsubsection.3.2.3}
-\contentsline {subsubsection}{\numberline {3.2.4}Leap Motion SDK}{28}{subsubsection.3.2.4}
-\contentsline {subsection}{\numberline {3.3}LitJson}{28}{subsection.3.3}
-\contentsline {section}{\numberline {4}Economic Analysis}{29}{section.4}
-\contentsline {subsection}{\numberline {4.1}Project description}{29}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}SWOT analysis}{29}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Project time schedule}{30}{subsection.4.3}
-\contentsline {subsubsection}{\numberline {4.3.1}Objective determination}{30}{subsubsection.4.3.1}
-\contentsline {subsubsection}{\numberline {4.3.2}Time schedule establishment}{31}{subsubsection.4.3.2}
-\contentsline {subsection}{\numberline {4.4}Economic motivation}{33}{subsection.4.4}
-\contentsline {subsubsection}{\numberline {4.4.1}Tangible and intangible asset expenses}{33}{subsubsection.4.4.1}
-\contentsline {subsubsection}{\numberline {4.4.2}Salary expenses}{35}{subsubsection.4.4.2}
-\contentsline {subsection}{\numberline {4.5}Individual person salary}{36}{subsection.4.5}
-\contentsline {subsubsection}{\numberline {4.5.1}Indirect expenses}{37}{subsubsection.4.5.1}
-\contentsline {subsubsection}{\numberline {4.5.2}Wear and depreciation}{38}{subsubsection.4.5.2}
-\contentsline {subsubsection}{\numberline {4.5.3}Product cost}{38}{subsubsection.4.5.3}
-\contentsline {subsubsection}{\numberline {4.5.4}Economic indicators and results}{38}{subsubsection.4.5.4}
-\contentsline {subsection}{\numberline {4.6}Marketing Plan}{40}{subsection.4.6}
-\contentsline {subsection}{\numberline {4.7}Economic conclusions}{41}{subsection.4.7}
-\contentsline {section}{Conclusions}{43}{section*.23}
-\contentsline {section}{References}{44}{section*.24}
+\contentsline {section}{\numberline {1}System analysis}{14}{section.1}
+\contentsline {subsection}{\numberline {1.1}Motivation and the problem description}{14}{subsection.1.1}
+\contentsline {subsubsection}{\numberline {1.1.1}What problems do people have after a stroke?}{14}{subsubsection.1.1.1}
+\contentsline {subsubsection}{\numberline {1.1.2}What therapy should be done after a stroke?}{15}{subsubsection.1.1.2}
+\contentsline {subsection}{\numberline {1.2}Case Study}{16}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Existing solutions and their drawbacks}{16}{subsection.1.3}
+\contentsline {subsubsection}{\numberline {1.3.1}VirtualRehab}{17}{subsubsection.1.3.1}
+\contentsline {subsubsection}{\numberline {1.3.2}Jintronix}{17}{subsubsection.1.3.2}
+\contentsline {subsubsection}{\numberline {1.3.3}SeeMe}{18}{subsubsection.1.3.3}
+\contentsline {subsection}{\numberline {1.4}Proposed solution}{18}{subsection.1.4}
+\contentsline {section}{\numberline {2}Architecture of the System}{21}{section.2}
+\contentsline {subsection}{\numberline {2.1}UML Diagrams}{21}{subsection.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}Use Case Diagram}{21}{subsubsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.2}Deployment Diagram}{22}{subsubsection.2.1.2}
+\contentsline {subsubsection}{\numberline {2.1.3}Class Diagram}{23}{subsubsection.2.1.3}
+\contentsline {subsubsection}{\numberline {2.1.4}Sequence Diagram}{24}{subsubsection.2.1.4}
+\contentsline {subsubsection}{\numberline {2.1.5}Activity Diagram}{25}{subsubsection.2.1.5}
+\contentsline {subsubsection}{\numberline {2.1.6}State Diagram}{27}{subsubsection.2.1.6}
+\contentsline {subsection}{\numberline {2.2}User Experience}{28}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}Benefits for the user}{28}{subsubsection.2.2.1}
+\contentsline {section}{\numberline {3} Implementation and Used Technologies}{30}{section.3}
+\contentsline {subsection}{\numberline {3.1}System Requirements}{30}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Technologies Used}{30}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Unity}{30}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}Leap Motion}{32}{subsubsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.3}C\# or JavaScript?}{32}{subsubsection.3.2.3}
+\contentsline {subsubsection}{\numberline {3.2.4}Leap Motion SDK}{32}{subsubsection.3.2.4}
+\contentsline {subsubsection}{\numberline {3.2.5}LitJson}{32}{subsubsection.3.2.5}
+\contentsline {subsubsection}{\numberline {3.2.6}APIs}{32}{subsubsection.3.2.6}
+\contentsline {subsubsection}{\numberline {3.2.7}Leap Motion API}{32}{subsubsection.3.2.7}
+\contentsline {subsection}{\numberline {3.3}Implementation}{32}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1}Software license}{32}{subsubsection.3.3.1}
+\contentsline {section}{\numberline {4}Economic Analysis}{34}{section.4}
+\contentsline {subsection}{\numberline {4.1}Project description}{34}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}SWOT analysis}{34}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Project time schedule}{35}{subsection.4.3}
+\contentsline {subsubsection}{\numberline {4.3.1}Objective determination}{35}{subsubsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.2}Time schedule establishment}{36}{subsubsection.4.3.2}
+\contentsline {subsection}{\numberline {4.4}Economic motivation}{38}{subsection.4.4}
+\contentsline {subsubsection}{\numberline {4.4.1}Tangible and intangible asset expenses}{38}{subsubsection.4.4.1}
+\contentsline {subsubsection}{\numberline {4.4.2}Salary expenses}{40}{subsubsection.4.4.2}
+\contentsline {subsection}{\numberline {4.5}Individual person salary}{41}{subsection.4.5}
+\contentsline {subsubsection}{\numberline {4.5.1}Indirect expenses}{42}{subsubsection.4.5.1}
+\contentsline {subsubsection}{\numberline {4.5.2}Wear and depreciation}{43}{subsubsection.4.5.2}
+\contentsline {subsubsection}{\numberline {4.5.3}Product cost}{43}{subsubsection.4.5.3}
+\contentsline {subsubsection}{\numberline {4.5.4}Economic indicators and results}{43}{subsubsection.4.5.4}
+\contentsline {subsection}{\numberline {4.6}Marketing Plan}{45}{subsection.4.6}
+\contentsline {subsection}{\numberline {4.7}Economic conclusions}{46}{subsection.4.7}
+\contentsline {section}{Conclusions}{48}{section*.24}
+\contentsline {section}{References}{49}{section*.25}

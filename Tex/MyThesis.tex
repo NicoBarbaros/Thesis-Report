@@ -8,7 +8,6 @@
 \begin{document}
 \pagenumbering{gobble}
 
-
 %##############################################################################
 
 
@@ -16,7 +15,7 @@
 \includepdf[pages = {1}]{others/signatures.pdf}
 \includepdf[pages={1,2}]{others/notebook.pdf}
 
-%\includepdf[pages={1}]{aviz.pdf}
+\includepdf[pages={1}]{others/aviz.pdf}
 
 \input{Abstract.tex}
 \newpage
@@ -36,7 +35,7 @@
 
 %\tableofcontents
 %\addtocontents{toc}{\protect\thispagestyle{empty}} 3.
-%\cleardoublepage
+\cleardoublepage
 
 \pagenumbering{arabic}
 \setcounter{page}{10}
@@ -55,6 +54,7 @@
 \addcontentsline{toc}{section}{Introduction}
 \input{Introduction.tex}
 
+\cleardoublepage
 
 \input{Chapter_1.tex}
 \cleardoublepage

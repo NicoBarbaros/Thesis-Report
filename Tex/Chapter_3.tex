@@ -8,7 +8,7 @@ In the current chapter is represented and described the architecture of Kyno app
 \begin{itemize}
 \item Use Case Diagram;
 \item Deployment Diagram;
-\item Class Diagram
+\item Class Diagram;
 \item Sequence Diagram;
 \item Activity Diagram;
 \item State Diagram.
@@ -26,9 +26,9 @@ So to model the entire system n numbers of use case diagrams are used.
 Purpose of Use Case diagram is:
 
 \begin{itemize}
-\item Used to gather requirements of a system.
-\item Identify external and internal factors influencing the system.
-\item Show the interacting among the requirements are actors.
+\item Used to gather requirements of a system;
+\item Identify external and internal factors influencing the system;
+\item Show the interacting among the requirements are actors;
 \item Used to get an outside view of a system.
 
 \end{itemize}
@@ -53,21 +53,19 @@ Now back to the \mbox{figure} \ref{uc_exercise} where the operations can be seen
 \caption{Use Case diagram of exercise action.}\label{uc_exercise}
 \end{figure}
 
-
-
 \subsubsection{Deployment Diagram}
 Deployment diagrams are used to visualize the topology of the physical components of a system where the software components are deployed.
 
-So deployment diagrams are used to describe the static deployment view of a system. Deployment diagrams consist of nodes and their relationships.
-
-The purpose of deployment diagrams can be described as:
+So deployment diagrams are used to describe the static deployment view of a system. Deployment diagrams consist of nodes and their relationships. The purpose of deployment diagrams can be described as:
 \begin{itemize}
-\item Describe runtime processing nodes.
-\item Describe the hardware components used to deploy software components.
+\item Describe runtime processing nodes;
+\item Describe the hardware components used to deploy software components;
 \item Visualize hardware topology of a system.
 \end{itemize}
 
 \vspace{0.2cm}
+
+In the \mbox{figure} \ref{deploy_diagram}, is described how the system is setup on the physical level. On the left there is the executable application used by the user in order to interact with the application. The user creates a connection with the Leap Motion device through a connector (USB), by pluggin the device into an USB port. The request is processed by the application and it checks whether the leapmotion is connected or not. Also at the runtime a JSON library runs and it loads from a JSON file text information into a dictionary where eventually will be displayed in the application.
 
 
 \begin{figure}[!h]
@@ -76,7 +74,6 @@ The purpose of deployment diagrams can be described as:
 \caption{Deploy diagram of the system.}\label{deploy_diagram}
 \end{figure}
 
-\clearpage
 
 \subsubsection{Class Diagram}
 The class diagram is a static diagram and itrepresents the static view of an application. Describes the attributes and operations of a class and more than that, also the constraints appointed on the system.
@@ -85,13 +82,18 @@ Because class diagrams are the only UML diagrams that can be mapped directly wit
 Purpose of the class diagram can be summarized in:
 
 \begin{itemize}
-\item Analysis and design of the static view of an application.
-\item Describe responsibilities of a system.
-\item Base for component and deployment diagrams.
+\item Analysis and design of the static view of an application;
+\item Describe responsibilities of a system;
+\item Base for component and deployment diagrams;
 \item Forward and reverse engineering.
 \end{itemize}
 
 \vspace{0.2cm}
+
+In the first class diagram which is \mbox{figure} \ref{class_ui} is described the UI of the application. Animation and how the menu is generated. How the pannels move, from left to right and right to left.
+
+One of the classes, illustrated in \mbox{figure \ref{class_ui}}, depicts the parsing objects. The conceptual model is done in an analogical way. The defined class has a set of predefined messages that denotes the possible actions needed to successfully push a button, get info from json file and finally set info to the corresponding text object.
+	
 
 
 
@@ -101,7 +103,6 @@ Purpose of the class diagram can be summarized in:
 \caption{Class Diagram of User Interface and User Interaction.}\label{class_ui}
 \end{figure}
 
-\clearpage
 
 \begin{figure}[!h]
 \centering
@@ -109,7 +110,7 @@ Purpose of the class diagram can be summarized in:
 \caption{Class Diagram of Leap Motion gesture tracking.}\label{class_leap}
 \end{figure}
 
-\clearpage
+The last step of Kyno application is gesture tracking part. The class structure is much simpler, see \mbox{figure \ref{class_leap}}. Manager Script class has association relationships with LeapPinchDetector. It is used to set tracking data to transform it into a pinching gesture. 
 
 \subsubsection{Sequence Diagram}
 In the \mbox{figure} \ref{sequence_exercise} is represented the action of doing an exercise. In order to do that, the user must press on one of the buttons shown in the menu, after pressing one of the button, it will make a function call to the Leap Motion, by asking him to grant access on that action. The Leap Motion will send back to the user info about what button was pressed and what action the user can do now. After the user pressed on of these buttons he can do now the action itself. Also after every set of exercise in that action, the user is able to retrieve the status of his action from Leap Motion 
@@ -120,7 +121,7 @@ In the \mbox{figure} \ref{sequence_exercise} is represented the action of doing 
 \caption{Sequence diagram of doing an exercise set.}\label{sequence_exercise}
 \end{figure}
 From the first glance each action behavior looks similar, having the same interface, however each has unique characteristics worth checking out. The entire process is straight and monotonous. Anyway there has to be some conditions which is the LeapMotion device is required to be connected to the users device.
-\clearpage
+
 
 \subsubsection{Activity Diagram}
 Activity diagram is another important diagram in UML to describe dynamic aspects of the system. This diagram is basically a flow chart to represent the flow form one activity to another activity. The activity can be described as an operation of the system.
@@ -130,8 +131,8 @@ So the control flow is drawn from one operation to another. This flow can be seq
 
 Purpose of activity diagram can be:
 \begin{itemize}
-\item Draw the activity flow of a system.
-\item Describe the sequence from one activity to another.
+\item Draw the activity flow of a system;
+\item Describe the sequence from one activity to another;
 \item Describe the parallel, branched and concurrent flow of the system.
 \end{itemize}
 \vspace{0.2cm}
@@ -146,7 +147,6 @@ Before selecting an action from menu the user must to connect the Leap Motion de
 \caption{Exercise performing activity diagram.}\label{activity_performs}
 \end{figure}
 
-\clearpage
 
 \subsubsection{State Diagram}
 The name of the diagram itself clarifies the purpose of the diagram and other details. It describes different states of a component in a system. The states are specific to a component/object of a system.
@@ -159,9 +159,9 @@ Statechart diagrams are also used for forward and reverse engineering of a syste
 Following are the main purposes of using Statechart diagrams:
 
 \begin{itemize}
-\item Define a state machine to model states of an object.
-\item To model life time of a reactive system.
-\item To model dynamic aspect of a system.
+\item Define a state machine to model states of an object;
+\item To model life time of a reactive system;
+\item To model dynamic aspect of a system;
 \item To describe different states of an object during its life time.
 \end{itemize}
 
@@ -176,7 +176,6 @@ In the  \mbox{figure \ref{state_choose}} and  \mbox{figure \ref{state_perform}} 
 \includegraphics[trim={0 18cm 0 2cm},clip, width = 16cm]{1_state_chooseExercise}
 \caption{Application state diagram.}\label{state_choose}
 \end{figure}
-\newpage
 
 \begin{figure}[!h]
 \centering
@@ -187,6 +186,15 @@ In the  \mbox{figure \ref{state_choose}} and  \mbox{figure \ref{state_perform}} 
 
 
 \subsection{User Experience}
+\subsubsection{Benefits for the user}
+By using Kyno, the user is provided with a list of benefits that can make their rehabilitation work better, easier, cheaper and with more results.
 
+\begin{itemize}
+\item \textbf{Simple design}. Being simple is key for making the work easy and comfortable. This is why Kyno has a little number of buttons, a pleasant for for displaying information to the user, one type of font and nothing else that could distract the user from being productive;
+
+\item \textbf{Future improvements}. After the first iteration and feedback from it's users, the team that works on the project will implement and it will constanly improve the UX of the software;
+
+\item \textbf{The market}. Kyno is mostly developed and designed for the local market and this is a great advantage, because in Republic of Moldova the home rehabilitation after a stroke or some kind of other injury is bad and there are no tools like Kyno in our rehabilitation centers that will take a patient through a whole new adventure and experience. This is why, if there will be future investments in the project, it can actually grow at a high scale.
+\end{itemize}
 
 \clearpage

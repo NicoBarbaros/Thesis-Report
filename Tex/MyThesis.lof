@@ -1,10 +1,11 @@
-\contentsline {figure}{\numberline {I.1}{\ignorespaces The Scratch user interface \relax }}{15}{figure.caption.3}
-\contentsline {figure}{\numberline {2.1}{\ignorespaces General Use Case diagram of the system.\relax }}{19}{figure.caption.4}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Use Case diagram of exercise action.\relax }}{20}{figure.caption.5}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Deploy diagram of the system.\relax }}{20}{figure.caption.6}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Class Diagram of User Interface and User Interaction.\relax }}{21}{figure.caption.7}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Class Diagram of Leap Motion gesture tracking.\relax }}{22}{figure.caption.8}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Sequence diagram of doing an exercise set.\relax }}{23}{figure.caption.9}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Exercise performing activity diagram.\relax }}{25}{figure.caption.10}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Application state diagram.\relax }}{26}{figure.caption.11}
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Exercising state diagram\relax }}{27}{figure.caption.12}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Top 10 leading causes of death in the world 2012 \cite {strokeStatistic}\relax }}{15}{figure.caption.3}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces General Use Case diagram of the system.\relax }}{22}{figure.caption.4}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Use Case diagram of exercise action.\relax }}{23}{figure.caption.5}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Deploy diagram of the system.\relax }}{24}{figure.caption.6}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Class Diagram of User Interface and User Interaction.\relax }}{25}{figure.caption.7}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Class Diagram of Leap Motion gesture tracking.\relax }}{26}{figure.caption.8}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Sequence diagram of doing an exercise set.\relax }}{26}{figure.caption.9}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Exercise performing activity diagram.\relax }}{27}{figure.caption.10}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Application state diagram.\relax }}{28}{figure.caption.11}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Exercising state diagram\relax }}{28}{figure.caption.12}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Exercising state diagram \cite {multiplatform}\relax }}{31}{figure.caption.14}
