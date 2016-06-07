@@ -14,7 +14,7 @@ In order to run the application and to have a nice user experience, there is nee
 
 As we can see the requirements are not that simple and easy to get since the Leap Motion can be bought only online from USA and cost almost 100 euros. However the application will come with the Leap Motion controller in the set.
 
-\subsection {Technologies Used}
+\subsection {Used technologies}
 \subsubsection {Unity}
 Unity is a powerful cross-platform 3D engine and a user friendly development environment. Easy enough for the beginner and powerful enough for the expert.
 \\
@@ -110,9 +110,9 @@ Eventhough I have a Microsoft Kinekt also, I choosed to use Leap Motion because 
 It is more accurate sensor than Kinekt and it's size is very small which is an advantage. 
 I thought that users, patients, hospitals, rehabilitation centers will appriciate it's advantages over Microsoft Kinekt.
 
-\subsubsection {C\# or JavaScript?}
+\subsubsection {C\# over JavaScript scripting}
 
-First I will talk about JavaScript. In Unity JavaScript is not the same as writing it for browsers(which is why it is popularly nicknamed UnityScript in the Unity's community).
+Firstly will be talked about JavaScript. In Unity, JavaScript is not the same as writing it for browsers(which is why it is popularly nicknamed UnityScript in the Unity's community).
 UnityScript has so many shortcuts that are just invitations to make mistakes, sometimes programmer will lose the time just tracking bugs or mistakes. One of the biggest, most awful thing is implicit variable declaration. Following example in  \autoref{variable{} will explain it 
 
 \begin{lstlisting}[caption={Implicit variable declaration in UnityScript.},label={variable}]
@@ -123,12 +123,12 @@ void Update ()
     {
 	 if (mycounter > 0)
 	    {
-	        // bla bla bla...
+	        // Does something
 	    }
     }
 \end{lstlisting}
 
-Can you spot the error in there?. The variable of misspelled from myCounter to mycounter in Update, the compiler will create a new variable with a default value to 0, so the if will never happen, despite of what value myCounter get's in the editor.
+Can you spot the error in there?. The variable of misspelled from myCounter to mycounter in Update, the compiler will create a new variable with a default value to 0, so if statement will never happen, despite of what value myCounter get's in the editor.
 
 There won't be warnings from the compiler, since implicit declaration is legal. This first reason is a must use C\# case.
 
@@ -141,7 +141,6 @@ And lastly, with C\# the developer has access to .Net meachanisms that have not 
 \addtocontents{toc}{\protect\newpage}
 
 
-\subsubsection {Leap Motion SDK}
 \subsubsection{LitJSON}
 JSON is a simple, yet powerful notation to specify data. It defines simple scalar types such as boolean, number (integers and reals) and string, and a couple of data structures: arrays (lists) and objects (dictionaries). For more information on the JSON format, visit JSON.org.
 
@@ -207,9 +206,9 @@ using LitJson;
 \end{lstlisting}
 
 
-For Kyno I used only JsonMapper.ToObject which helped me to easily read text from a text file. See for how it was implemented in subsection \textbf{Implementation}.
+For Kyno it was used only JsonMapper.ToObject which helped it to easily read text from a text file. See for how it was implemented in subsection \textbf{Implementation}.
 
-\subsubsection{APIs}
+\subsubsection{Application Programming Interface}
 For the purpose of getting tracked data from the Leap Motion it is of a great use to use the API, which is a set of tools, routes, protocols used in order to build an applicaiton.
 
 An API offers SaaS. This is a great benefit and opportunity for the programmers because they do not have to start programming from scratch every time they need to create a new software. APIs are very useful and they will be used in Kyno in order to get frame, hand, fingers tracking data from leapmotion and reading text from a file without having the programmers to write code from scratch, but focusing their attention on code that does what the APIs or framework can not do. 
@@ -364,7 +363,7 @@ Leap.Vector leapToWorld(Leap.Vector leapPoint, InteractionBox iBox)
 \end{itemize}
 
 
-\subsection{Implementation}
+\subsection{System implementation}
 %developer.leapmotion.com/documentation/csharp/devguide/Leap_Hand.html
 
 
@@ -374,7 +373,7 @@ Kyno will be offered for a period of 1 month for free. In this period, the softw
 After 1 month of free using, a monthly or yearly subscription plan will be applied with different prices for individual patients or hospitals and rehabilitation centers.
 
 
-\subsubsection{BackEnd}
+\subsubsection{Software backend}
 
 In order for the Leap Motion to work with the application it needs to be created a controller object \autoref{controller}. The Controller object establishes a connection automatically to the Leap Motion daemon which then passes tracking data in the form of Frame object to the application \autoref{matrix}.
 
@@ -445,11 +444,11 @@ Next in \autoref{update} is how to update the graphical part of hand representat
 
 From here  using the factory object, each hand's data such as position, scale, rotation of the hand can be get and mapped to a virtual hand in Unity. 
 
-A lot of back magic was made by Leap Motion they provided a package for Unity where there are scripts and prefabs ready to be used in development and these prefabs will provide the developer with a set of virtual hand. As for me as a developer, I was able to focus more on the practical part of the application by implementing the gestures I planned to have in the application.
+A lot of back magic was made by Leap Motion they provided a package for Unity where there are scripts and prefabs ready to be used in development and these prefabs will provide the developer with a set of virtual hand. As a developer, it is more comfortable to focus more on the practical part of the application by implementing the gestures it was planned to have in the application.
 
 \textbf{Pinch}
 
-Leap Motion's API provide pinching only with the index finger. In order to get a pinch with other finger it need to be calculated the distance between Thumb and rest of the fingers. For that in \autoref{pinch} at line 19 is provided a functiont that will return the distance between 2 fingers or better say tip position of the fingers. So every time GetDistanceToThumb will be called it will calculate that distance. By default the API returns the distance in mm so I had somehow to convert it to a better form for the purpose of later usage in the code.
+Leap Motion's API provide pinching only with the index finger. In order to get a pinch with other finger it need to be calculated the distance between Thumb and rest of the fingers. For that in \autoref{pinch} at line 19 is provided a functiont that will return the distance between 2 fingers or better say tip position of the fingers. So every time GetDistanceToThumb will be called it will calculate that distance. By default the API returns the distance in mm so it had somehow to convert it to a better form for the purpose of later usage in the code.
 
 \begin{lstlisting}[caption= {Pinching detection in Kyno},label={pinch}]
 
@@ -477,14 +476,14 @@ Leap Motion's API provide pinching only with the index finger. In order to get a
     }
 \end{lstlisting}
 
-After getting the distance from Thumb to other tip of the fingers I could check if there would be a pinch or not.
+After getting the distance from Thumb to other tip of the fingers it can be checked if there would be a pinch or not.
 
 \textbf{Grab}
 
 %developer..leapmotion.com/documentation/java/api/Leap.Pointable.html#javaclasscom_1_1leapmotion_1_1leap_1_1_pointable_1ada0cf872bb60b0b7b8d2ab94f4c77047
 A finger is considered extended if it is extended straight from the hand as if pointing. A finger is not extended when it is bent down and curled towards the palm.
 
-So here I just had to check if all of the fingers are not extended and if not that it will be a grab otherwise it won't be.
+So here it just needs to be checked if all of the fingers are not extended and if not that it will be a grab otherwise it won't be.
 \begin{lstlisting}[caption={Grab detection in Kyno},label={createController}]
  void Update()
     {

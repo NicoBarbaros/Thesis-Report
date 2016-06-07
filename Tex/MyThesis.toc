@@ -1,56 +1,55 @@
 \contentsline {section}{List of figures}{10}{Doc-Start}
 \contentsline {section}{List of listings}{11}{Doc-Start}
 \contentsline {section}{List of abbreviations}{12}{Doc-Start}
-\contentsline {section}{Introduction}{12}{section*.1}
-\contentsline {section}{\numberline {1}System analysis}{14}{section.1}
-\contentsline {subsection}{\numberline {1.1}Motivation and the problem description}{14}{subsection.1.1}
-\contentsline {subsubsection}{\numberline {1.1.1}What problems do people have after a stroke?}{14}{subsubsection.1.1.1}
-\contentsline {subsubsection}{\numberline {1.1.2}What therapy should be done after a stroke?}{15}{subsubsection.1.1.2}
-\contentsline {subsection}{\numberline {1.2}Case Study}{16}{subsection.1.2}
-\contentsline {subsection}{\numberline {1.3}Existing solutions and their drawbacks}{16}{subsection.1.3}
-\contentsline {subsubsection}{\numberline {1.3.1}VirtualRehab}{17}{subsubsection.1.3.1}
-\contentsline {subsubsection}{\numberline {1.3.2}Jintronix}{17}{subsubsection.1.3.2}
-\contentsline {subsubsection}{\numberline {1.3.3}SeeMe}{18}{subsubsection.1.3.3}
-\contentsline {subsection}{\numberline {1.4}Proposed solution}{18}{subsection.1.4}
-\contentsline {section}{\numberline {2}Architecture of the System}{21}{section.2}
-\contentsline {subsection}{\numberline {2.1}UML Diagrams}{21}{subsection.2.1}
-\contentsline {subsubsection}{\numberline {2.1.1}Use Case Diagram}{21}{subsubsection.2.1.1}
-\contentsline {subsubsection}{\numberline {2.1.2}Deployment Diagram}{22}{subsubsection.2.1.2}
-\contentsline {subsubsection}{\numberline {2.1.3}Class Diagram}{23}{subsubsection.2.1.3}
-\contentsline {subsubsection}{\numberline {2.1.4}Sequence Diagram}{24}{subsubsection.2.1.4}
-\contentsline {subsubsection}{\numberline {2.1.5}Activity Diagram}{25}{subsubsection.2.1.5}
-\contentsline {subsubsection}{\numberline {2.1.6}State Diagram}{27}{subsubsection.2.1.6}
-\contentsline {subsection}{\numberline {2.2}Benefits for the user}{28}{subsection.2.2}
-\contentsline {section}{\numberline {3} Implementation and Used Technologies}{30}{section.3}
-\contentsline {subsection}{\numberline {3.1}System Requirements}{30}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Technologies Used}{30}{subsection.3.2}
-\contentsline {subsubsection}{\numberline {3.2.1}Unity}{30}{subsubsection.3.2.1}
-\contentsline {subsubsection}{\numberline {3.2.2}Leap Motion}{32}{subsubsection.3.2.2}
-\contentsline {subsubsection}{\numberline {3.2.3}C\# or JavaScript?}{33}{subsubsection.3.2.3}
+\contentsline {section}{Introduction}{13}{Doc-Start}
+\contentsline {section}{\numberline {1}System analysis}{15}{section.1}
+\contentsline {subsection}{\numberline {1.1}Motivation and the problem description}{15}{subsection.1.1}
+\contentsline {subsubsection}{\numberline {1.1.1}Physical challenges after stroke}{15}{subsubsection.1.1.1}
+\contentsline {subsubsection}{\numberline {1.1.2}Physical therapy after stroke}{16}{subsubsection.1.1.2}
+\contentsline {subsection}{\numberline {1.2}Stroke Case Study}{17}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Existing solutions and their drawbacks}{17}{subsection.1.3}
+\contentsline {subsubsection}{\numberline {1.3.1}VirtualRehab application}{18}{subsubsection.1.3.1}
+\contentsline {subsubsection}{\numberline {1.3.2}Jintronix application}{18}{subsubsection.1.3.2}
+\contentsline {subsubsection}{\numberline {1.3.3}SeeMe application}{19}{subsubsection.1.3.3}
+\contentsline {subsection}{\numberline {1.4}Proposed solution}{19}{subsection.1.4}
+\contentsline {section}{\numberline {2}Architecture of the System}{22}{section.2}
+\contentsline {subsection}{\numberline {2.1}Design visualization of the system}{22}{subsection.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}Functionality of the system}{22}{subsubsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.2}Topology of the physical components}{23}{subsubsection.2.1.2}
+\contentsline {subsubsection}{\numberline {2.1.3}Modelling of the object oriented system}{24}{subsubsection.2.1.3}
+\contentsline {subsubsection}{\numberline {2.1.4}Component interaction of the system}{25}{subsubsection.2.1.4}
+\contentsline {subsubsection}{\numberline {2.1.5}Dynamics aspects of the system}{26}{subsubsection.2.1.5}
+\contentsline {subsubsection}{\numberline {2.1.6}Model state definition}{28}{subsubsection.2.1.6}
+\contentsline {subsection}{\numberline {2.2}Benefits for the user}{29}{subsection.2.2}
+\contentsline {section}{\numberline {3} Implementation and Used Technologies}{31}{section.3}
+\contentsline {subsection}{\numberline {3.1}System Requirements}{31}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Used technologies}{31}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Unity}{31}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}Leap Motion}{33}{subsubsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.3}C\# over JavaScript scripting}{34}{subsubsection.3.2.3}
 \newpage 
-\contentsline {subsubsection}{\numberline {3.2.4}Leap Motion SDK}{34}{subsubsection.3.2.4}
-\contentsline {subsubsection}{\numberline {3.2.5}LitJSON}{34}{subsubsection.3.2.5}
-\contentsline {subsubsection}{\numberline {3.2.6}APIs}{36}{subsubsection.3.2.6}
-\contentsline {subsubsection}{\numberline {3.2.7}Leap Motion API}{36}{subsubsection.3.2.7}
-\contentsline {subsection}{\numberline {3.3}Implementation}{41}{subsection.3.3}
-\contentsline {subsubsection}{\numberline {3.3.1}Software license}{41}{subsubsection.3.3.1}
-\contentsline {subsubsection}{\numberline {3.3.2}BackEnd}{41}{subsubsection.3.3.2}
-\contentsline {subsubsection}{\numberline {3.3.3}UI of Kyno application}{45}{subsubsection.3.3.3}
-\contentsline {section}{\numberline {4}Economic Analysis}{51}{section.4}
-\contentsline {subsection}{\numberline {4.1}Project description}{51}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}SWOT analysis}{51}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {3.2.4}LitJSON}{35}{subsubsection.3.2.4}
+\contentsline {subsubsection}{\numberline {3.2.5}Application Programming Interface}{37}{subsubsection.3.2.5}
+\contentsline {subsubsection}{\numberline {3.2.6}Leap Motion API}{37}{subsubsection.3.2.6}
+\contentsline {subsection}{\numberline {3.3}System implementation}{42}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1}Software license}{42}{subsubsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.2}Software backend}{42}{subsubsection.3.3.2}
+\contentsline {subsubsection}{\numberline {3.3.3}UI of Kyno application}{46}{subsubsection.3.3.3}
+\contentsline {section}{\numberline {4}Economic Analysis}{52}{section.4}
+\contentsline {subsection}{\numberline {4.1}Project description}{52}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}SWOT analysis}{52}{subsection.4.2}
 \contentsline {subsection}{\numberline {4.3}Project time schedule}{52}{subsection.4.3}
 \contentsline {subsubsection}{\numberline {4.3.1}Objective determination}{52}{subsubsection.4.3.1}
 \contentsline {subsubsection}{\numberline {4.3.2}Time schedule establishment}{53}{subsubsection.4.3.2}
 \contentsline {subsection}{\numberline {4.4}Economic motivation}{55}{subsection.4.4}
 \contentsline {subsubsection}{\numberline {4.4.1}Tangible and intangible asset expenses}{55}{subsubsection.4.4.1}
-\contentsline {subsubsection}{\numberline {4.4.2}Salary expenses}{57}{subsubsection.4.4.2}
-\contentsline {subsection}{\numberline {4.5}Individual person salary}{58}{subsection.4.5}
-\contentsline {subsubsection}{\numberline {4.5.1}Indirect expenses}{59}{subsubsection.4.5.1}
-\contentsline {subsubsection}{\numberline {4.5.2}Wear and depreciation}{60}{subsubsection.4.5.2}
+\contentsline {subsubsection}{\numberline {4.4.2}Salary expenses}{55}{subsubsection.4.4.2}
+\contentsline {subsection}{\numberline {4.5}Individual person salary}{57}{subsection.4.5}
+\contentsline {subsubsection}{\numberline {4.5.1}Indirect expenses}{58}{subsubsection.4.5.1}
+\contentsline {subsubsection}{\numberline {4.5.2}Wear and depreciation}{59}{subsubsection.4.5.2}
 \contentsline {subsubsection}{\numberline {4.5.3}Product cost}{60}{subsubsection.4.5.3}
-\contentsline {subsubsection}{\numberline {4.5.4}Economic indicators and results}{60}{subsubsection.4.5.4}
+\contentsline {subsubsection}{\numberline {4.5.4}Economic indicators and results}{61}{subsubsection.4.5.4}
 \contentsline {subsection}{\numberline {4.6}Marketing Plan}{62}{subsection.4.6}
 \contentsline {subsection}{\numberline {4.7}Economic conclusions}{63}{subsection.4.7}
-\contentsline {section}{Conclusions}{65}{section*.32}
-\contentsline {section}{References}{66}{section*.33}
+\contentsline {section}{Conclusions}{64}{section*.31}
+\contentsline {section}{References}{66}{section*.32}

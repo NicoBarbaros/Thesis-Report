@@ -1,6 +1,6 @@
 \section{Architecture of the System}
 %\phantomsection
-\subsection{UML Diagrams}
+\subsection{Design visualization of the system}
 The Unified Modeling Language (UML)\cite{uml} is a development and all use modeling language in the field of software engineering. Is indended to assure a standard way of visualizing the design of the system that it was made for.
 
 In the current chapter is represented and described the architecture of Kyno application. It contains a set of relevant diagrams modeled in UML language. The diagrams provide a fundamental documentation an description of the system structure and behavior.
@@ -16,7 +16,7 @@ In the current chapter is represented and described the architecture of Kyno app
 \end{itemize}
 These diagrams will illustrate the users possibilities, the system architecture and will also illustrate the procedures of interaction between the modules.
 
-\subsubsection{Use Case Diagram}
+\subsubsection{Functionality of the system}
 To model a system the most important aspect is to capture the dynamic behaviour. In UML there are five diagrams available to model dynamic nature and use case diagram is one of them. Now as we have to discuss that the use case diagram is dynamic in nature there should be some internal or external factors for making the interaction.
 
 These internal and external agents are known as actors. So use case diagrams are consists of actors, use cases and their relationships. The diagram is used to model the system/subsystem of an application. A single use case diagram captures a particular functionality of a system.
@@ -53,7 +53,7 @@ Now back to the \mbox{figure} \ref{uc_exercise} where the operations can be seen
 \caption{Use Case diagram of exercise action.}\label{uc_exercise}
 \end{figure}
 
-\subsubsection{Deployment Diagram}
+\subsubsection{Topology of the physical components}
 Deployment diagrams are used to visualize the topology of the physical components of a system where the software components are deployed.
 
 So deployment diagrams are used to describe the static deployment view of a system. Deployment diagrams consist of nodes and their relationships. The purpose of deployment diagrams can be described as:
@@ -75,7 +75,7 @@ In the \mbox{figure} \ref{deploy_diagram}, is described how the system is setup 
 \end{figure}
 
 
-\subsubsection{Class Diagram}
+\subsubsection{Modelling of the object oriented system}
 The class diagram is a static diagram and itrepresents the static view of an application. Describes the attributes and operations of a class and more than that, also the constraints appointed on the system.
 Because class diagrams are the only UML diagrams that can be mapped directly with object oriented languages it is widely used in the modelling of the object oriented system and at the time of system construction.
 
@@ -112,7 +112,7 @@ One of the classes, illustrated in \mbox{figure \ref{class_ui}}, depicts the par
 
 The last step of Kyno application is gesture tracking part. The class structure is much simpler, see \mbox{figure \ref{class_leap}}. Manager Script class has association relationships with LeapPinchDetector. It is used to set tracking data to transform it into a pinching gesture. 
 
-\subsubsection{Sequence Diagram}
+\subsubsection{Component interaction of the system}
 In the \mbox{figure} \ref{sequence_exercise} is represented the action of doing an exercise. In order to do that, the user must press on one of the buttons shown in the menu, after pressing one of the button, it will make a function call to the Leap Motion, by asking him to grant access on that action. The Leap Motion will send back to the user info about what button was pressed and what action the user can do now. After the user pressed on of these buttons he can do now the action itself. Also after every set of exercise in that action, the user is able to retrieve the status of his action from Leap Motion 
 
 \begin{figure}[!h]
@@ -123,7 +123,7 @@ In the \mbox{figure} \ref{sequence_exercise} is represented the action of doing 
 From the first glance each action behavior looks similar, having the same interface, however each has unique characteristics worth checking out. The entire process is straight and monotonous. Anyway there has to be some conditions which is the LeapMotion device is required to be connected to the users device.
 
 
-\subsubsection{Activity Diagram}
+\subsubsection{Dynamics aspects of the system}
 Activity diagram is another important diagram in UML to describe dynamic aspects of the system. This diagram is basically a flow chart to represent the flow form one activity to another activity. The activity can be described as an operation of the system.
 
 So the control flow is drawn from one operation to another. This flow can be sequential, branched or concurrent. Activity diagrams deals with all type of flow control by using different elements like fork, join etc.
@@ -148,7 +148,7 @@ Before selecting an action from menu the user must to connect the Leap Motion de
 \end{figure}
 
 
-\subsubsection{State Diagram}
+\subsubsection{Model state definition}
 The name of the diagram itself clarifies the purpose of the diagram and other details. It describes different states of a component in a system. The states are specific to a component/object of a system.
 
 A Statechart diagram describes a state machine. Now to clarify it state machine can be defined as a machine which defines different states of an object and these states are controlled by external or internal events.
@@ -167,7 +167,7 @@ Following are the main purposes of using Statechart diagrams:
 
 \vspace{0.2cm}
 
-In the  \mbox{figure \ref{state_choose}} and  \mbox{figure \ref{state_perform}} is represented the application state diagram.
+In the  \mbox{figure \ref{state_choose}} and  \mbox{\ref{state_perform}} is represented the application state diagram.
  However due to the fact that Kyno application offers a limited amount of operations, imply that there is a small amount of states that an application user can be. All the application states are mapped to the executable. After running the application the first step is to connect the Leap Motion device. Where in the next step the Leap Motion API detects if there is or there is not connected an Leap Motion device. On the left bottom corner of the window is rendered a pie menu that can get the user into any state of the application. The remaining states are related only to visualizing the information and the exercise action itself.
 
 
@@ -187,15 +187,20 @@ The implementation chapter focuses on the provided UML design, implements the cl
 
 \subsection{Benefits for the user}
 
-\begin{figure}[!h]
-\centering
-\includegraphics[ width = 14cm]{leapmotion}
-\caption{The PC in your hands \cite{leap}}\label{leapmotion]}
-\end{figure}
+
 
 By using Kyno, the user is provided with a list of benefits that can make their rehabilitation work better, easier, cheaper and with more results.
 
 \begin{itemize}
+\item \textbf{Free Hands} Kyno is not required of full rooms with sensors, gloves or other device that will be attached to user's hands. It's using Leap Motion a device that tracks hands by positioning them above the controller as shown in \mbox{figure \ref{1leapmotion}}.
+
+\begin{figure}[!h]
+\centering
+\includegraphics[ width = 14cm]{leapmotion}
+\caption{The PC in your hands \cite{leap}}\label{1leapmotion]}
+\end{figure}
+
+
 \item \textbf{Simple design}. Being simple is key for making the work easy and comfortable. This is why Kyno has a little number of buttons, a pleasant for for displaying information to the user, one type of font and nothing else that could distract the user from being productive;
 
 \item \textbf{Future improvements}. After the first iteration and feedback from it's users, the team that works on the project will implement and it will constanly improve the UX of the software;

@@ -1,19 +1,19 @@
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Top 10 leading causes of death in the world 2012 \cite {strokeStatistic}\relax }}{15}{figure.caption.3}
-\contentsline {figure}{\numberline {2.1}{\ignorespaces General Use Case diagram of the system.\relax }}{22}{figure.caption.4}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Use Case diagram of exercise action.\relax }}{23}{figure.caption.5}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Deploy diagram of the system.\relax }}{24}{figure.caption.6}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Class Diagram of User Interface and User Interaction.\relax }}{25}{figure.caption.7}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Class Diagram of Leap Motion gesture tracking.\relax }}{26}{figure.caption.8}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Sequence diagram of doing an exercise set.\relax }}{26}{figure.caption.9}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Exercise performing activity diagram.\relax }}{27}{figure.caption.10}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Application state diagram.\relax }}{28}{figure.caption.11}
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Exercising state diagram\relax }}{28}{figure.caption.12}
-\contentsline {figure}{\numberline {2.10}{\ignorespaces The PC in your hands \cite {leap}\relax }}{29}{figure.caption.13}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Exercising state diagram \cite {multiplatform}\relax }}{31}{figure.caption.15}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Interaction area of Leap Motion device. \cite {area}\relax }}{32}{figure.caption.16}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Communication between programmer and application through API. \cite {api}\relax }}{36}{figure.caption.17}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Communication between programmer and application through API. \cite {leapapi}\relax }}{37}{figure.caption.18}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Components of Hand object in Leap Motion. \cite {leapapi}\relax }}{38}{figure.caption.19}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces The Leap Motion controller uses a right-handed coordinate system. \cite {coordinates}\relax }}{40}{figure.caption.20}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Panel with tips for user. \relax }}{48}{figure.caption.21}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces In application pie menu. \relax }}{50}{figure.caption.22}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Top 10 leading causes of death in the world 2012 \cite {strokeStatistic}\relax }}{16}{figure.caption.2}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces General Use Case diagram of the system.\relax }}{23}{figure.caption.3}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Use Case diagram of exercise action.\relax }}{24}{figure.caption.4}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Deploy diagram of the system.\relax }}{25}{figure.caption.5}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Class Diagram of User Interface and User Interaction.\relax }}{26}{figure.caption.6}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Class Diagram of Leap Motion gesture tracking.\relax }}{27}{figure.caption.7}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Sequence diagram of doing an exercise set.\relax }}{27}{figure.caption.8}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Exercise performing activity diagram.\relax }}{28}{figure.caption.9}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Application state diagram.\relax }}{29}{figure.caption.10}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Exercising state diagram\relax }}{29}{figure.caption.11}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces The PC in your hands \cite {leap}\relax }}{30}{figure.caption.12}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Exercising state diagram \cite {multiplatform}\relax }}{32}{figure.caption.14}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Interaction area of Leap Motion device. \cite {area}\relax }}{33}{figure.caption.15}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Communication between programmer and application through API. \cite {api}\relax }}{37}{figure.caption.16}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Communication between programmer and application through API. \cite {leapapi}\relax }}{38}{figure.caption.17}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Components of Hand object in Leap Motion. \cite {leapapi}\relax }}{39}{figure.caption.18}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces The Leap Motion controller uses a right-handed coordinate system. \cite {coordinates}\relax }}{41}{figure.caption.19}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Panel with tips for user. \relax }}{49}{figure.caption.20}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces In application pie menu. \relax }}{51}{figure.caption.21}
