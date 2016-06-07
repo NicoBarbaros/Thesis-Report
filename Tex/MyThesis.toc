@@ -20,35 +20,37 @@
 \contentsline {subsubsection}{\numberline {2.1.4}Sequence Diagram}{24}{subsubsection.2.1.4}
 \contentsline {subsubsection}{\numberline {2.1.5}Activity Diagram}{25}{subsubsection.2.1.5}
 \contentsline {subsubsection}{\numberline {2.1.6}State Diagram}{27}{subsubsection.2.1.6}
-\contentsline {subsection}{\numberline {2.2}User Experience}{28}{subsection.2.2}
-\contentsline {subsubsection}{\numberline {2.2.1}Benefits for the user}{28}{subsubsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2}Benefits for the user}{28}{subsection.2.2}
 \contentsline {section}{\numberline {3} Implementation and Used Technologies}{30}{section.3}
 \contentsline {subsection}{\numberline {3.1}System Requirements}{30}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Technologies Used}{30}{subsection.3.2}
 \contentsline {subsubsection}{\numberline {3.2.1}Unity}{30}{subsubsection.3.2.1}
 \contentsline {subsubsection}{\numberline {3.2.2}Leap Motion}{32}{subsubsection.3.2.2}
-\contentsline {subsubsection}{\numberline {3.2.3}C\# or JavaScript?}{32}{subsubsection.3.2.3}
-\contentsline {subsubsection}{\numberline {3.2.4}Leap Motion SDK}{32}{subsubsection.3.2.4}
-\contentsline {subsubsection}{\numberline {3.2.5}LitJson}{32}{subsubsection.3.2.5}
-\contentsline {subsubsection}{\numberline {3.2.6}APIs}{32}{subsubsection.3.2.6}
-\contentsline {subsubsection}{\numberline {3.2.7}Leap Motion API}{32}{subsubsection.3.2.7}
-\contentsline {subsection}{\numberline {3.3}Implementation}{32}{subsection.3.3}
-\contentsline {subsubsection}{\numberline {3.3.1}Software license}{32}{subsubsection.3.3.1}
-\contentsline {section}{\numberline {4}Economic Analysis}{34}{section.4}
-\contentsline {subsection}{\numberline {4.1}Project description}{34}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}SWOT analysis}{34}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Project time schedule}{35}{subsection.4.3}
-\contentsline {subsubsection}{\numberline {4.3.1}Objective determination}{35}{subsubsection.4.3.1}
-\contentsline {subsubsection}{\numberline {4.3.2}Time schedule establishment}{36}{subsubsection.4.3.2}
-\contentsline {subsection}{\numberline {4.4}Economic motivation}{38}{subsection.4.4}
-\contentsline {subsubsection}{\numberline {4.4.1}Tangible and intangible asset expenses}{38}{subsubsection.4.4.1}
-\contentsline {subsubsection}{\numberline {4.4.2}Salary expenses}{40}{subsubsection.4.4.2}
-\contentsline {subsection}{\numberline {4.5}Individual person salary}{41}{subsection.4.5}
-\contentsline {subsubsection}{\numberline {4.5.1}Indirect expenses}{42}{subsubsection.4.5.1}
-\contentsline {subsubsection}{\numberline {4.5.2}Wear and depreciation}{43}{subsubsection.4.5.2}
-\contentsline {subsubsection}{\numberline {4.5.3}Product cost}{43}{subsubsection.4.5.3}
-\contentsline {subsubsection}{\numberline {4.5.4}Economic indicators and results}{43}{subsubsection.4.5.4}
-\contentsline {subsection}{\numberline {4.6}Marketing Plan}{45}{subsection.4.6}
-\contentsline {subsection}{\numberline {4.7}Economic conclusions}{46}{subsection.4.7}
-\contentsline {section}{Conclusions}{48}{section*.24}
-\contentsline {section}{References}{49}{section*.25}
+\contentsline {subsubsection}{\numberline {3.2.3}C\# or JavaScript?}{33}{subsubsection.3.2.3}
+\newpage 
+\contentsline {subsubsection}{\numberline {3.2.4}Leap Motion SDK}{34}{subsubsection.3.2.4}
+\contentsline {subsubsection}{\numberline {3.2.5}LitJSON}{34}{subsubsection.3.2.5}
+\contentsline {subsubsection}{\numberline {3.2.6}APIs}{36}{subsubsection.3.2.6}
+\contentsline {subsubsection}{\numberline {3.2.7}Leap Motion API}{36}{subsubsection.3.2.7}
+\contentsline {subsection}{\numberline {3.3}Implementation}{41}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1}Software license}{41}{subsubsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.2}BackEnd}{41}{subsubsection.3.3.2}
+\contentsline {subsubsection}{\numberline {3.3.3}UI of Kyno application}{45}{subsubsection.3.3.3}
+\contentsline {section}{\numberline {4}Economic Analysis}{51}{section.4}
+\contentsline {subsection}{\numberline {4.1}Project description}{51}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}SWOT analysis}{51}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Project time schedule}{52}{subsection.4.3}
+\contentsline {subsubsection}{\numberline {4.3.1}Objective determination}{52}{subsubsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.2}Time schedule establishment}{53}{subsubsection.4.3.2}
+\contentsline {subsection}{\numberline {4.4}Economic motivation}{55}{subsection.4.4}
+\contentsline {subsubsection}{\numberline {4.4.1}Tangible and intangible asset expenses}{55}{subsubsection.4.4.1}
+\contentsline {subsubsection}{\numberline {4.4.2}Salary expenses}{57}{subsubsection.4.4.2}
+\contentsline {subsection}{\numberline {4.5}Individual person salary}{58}{subsection.4.5}
+\contentsline {subsubsection}{\numberline {4.5.1}Indirect expenses}{59}{subsubsection.4.5.1}
+\contentsline {subsubsection}{\numberline {4.5.2}Wear and depreciation}{60}{subsubsection.4.5.2}
+\contentsline {subsubsection}{\numberline {4.5.3}Product cost}{60}{subsubsection.4.5.3}
+\contentsline {subsubsection}{\numberline {4.5.4}Economic indicators and results}{60}{subsubsection.4.5.4}
+\contentsline {subsection}{\numberline {4.6}Marketing Plan}{62}{subsection.4.6}
+\contentsline {subsection}{\numberline {4.7}Economic conclusions}{63}{subsection.4.7}
+\contentsline {section}{Conclusions}{65}{section*.32}
+\contentsline {section}{References}{66}{section*.33}
